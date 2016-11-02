@@ -1,0 +1,4 @@
+Init:
+	irmovl $0x500, %eax
+	irmovl $0x20, %ebx
+	rmmovl %ebx, (,%eax,4)

@@ -1,0 +1,4 @@
+	.pos 0
+Init:
+	irmovl $1, %edx;
+	irmovl $0x1000, 

@@ -1,0 +1,874 @@
+Y86 Processor: pipe-std.hcl
+123 bytes of code read
+
+Cycle 0. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x0
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 0, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x0, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 1. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x6
+D: instr = irmovl, rA = ----, rB = %esp, valC = 0x100, valP = 0x6, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x6, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 2. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0xc
+D: instr = irmovl, rA = ----, rB = %ebp, valC = 0x100, valP = 0xc, Stat = AOK
+E: instr = irmovl, valC = 0x100, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0xc, imem_instr = call, f_instr = call
+	Execute: ALU: + 0x100 0x0 --> 0x100
+
+Cycle 3. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x24
+D: instr = call, rA = ----, rB = ----, valC = 0x24, valP = 0x11, Stat = AOK
+E: instr = irmovl, valC = 0x100, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebp, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x100, valA = 0x0
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x24, imem_instr = pushl, f_instr = pushl
+	Execute: ALU: + 0x100 0x0 --> 0x100
+
+Cycle 4. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x26
+D: instr = pushl, rA = %ebp, rB = ----, valC = 0x0, valP = 0x26, Stat = AOK
+E: instr = call, valC = 0x24, valA = 0x11, valB = 0x100
+   srcA = ----, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x100, valA = 0x0
+   dstE = %ebp, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x100, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x26, imem_instr = rrmovl, f_instr = rrmovl
+	Execute: ALU: + 0xfffffffc 0x100 --> 0xfc
+	Writeback: Wrote 0x100 to register %esp
+
+Cycle 5. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x28
+D: instr = rrmovl, rA = %esp, rB = %ebp, valC = 0x0, valP = 0x28, Stat = AOK
+E: instr = pushl, valC = 0x0, valA = 0x100, valB = 0xfc
+   srcA = %ebp, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = call, Cnd = 1, valE = 0xfc, valA = 0x11
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x100, valM = 0x0, dstE = %ebp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x28, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0xfffffffc 0xfc --> 0xf8
+	Writeback: Wrote 0x100 to register %ebp
+	Wrote 0x11 to address 0xfc
+
+Cycle 6. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x2e
+D: instr = irmovl, rA = ----, rB = %eax, valC = 0x4, valP = 0x2e, Stat = AOK
+E: instr = rrmovl, valC = 0x0, valA = 0xf8, valB = 0x0
+   srcA = %esp, srcB = ----, dstE = %ebp, dstM = ----, Stat = AOK
+M: instr = pushl, Cnd = 1, valE = 0xf8, valA = 0x100
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = call, valE = 0xfc, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x2e, imem_instr = pushl, f_instr = pushl
+	Execute: ALU: + 0xf8 0x0 --> 0xf8
+	Writeback: Wrote 0xfc to register %esp
+	Wrote 0x100 to address 0xf8
+
+Cycle 7. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x30
+D: instr = pushl, rA = %eax, rB = ----, valC = 0x0, valP = 0x30, Stat = AOK
+E: instr = irmovl, valC = 0x4, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %eax, dstM = ----, Stat = AOK
+M: instr = rrmovl, Cnd = 1, valE = 0xf8, valA = 0xf8
+   dstE = %ebp, dstM = ----, Stat = AOK
+W: instr = pushl, valE = 0xf8, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x30, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x4 0x0 --> 0x4
+	Writeback: Wrote 0xf8 to register %esp
+
+Cycle 8. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x36
+D: instr = irmovl, rA = ----, rB = %edx, valC = 0x14, valP = 0x36, Stat = AOK
+E: instr = pushl, valC = 0x0, valA = 0x4, valB = 0xf8
+   srcA = %eax, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x4, valA = 0x0
+   dstE = %eax, dstM = ----, Stat = AOK
+W: instr = rrmovl, valE = 0xf8, valM = 0x0, dstE = %ebp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x36, imem_instr = pushl, f_instr = pushl
+	Execute: ALU: + 0xfffffffc 0xf8 --> 0xf4
+	Writeback: Wrote 0xf8 to register %ebp
+
+Cycle 9. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x38
+D: instr = pushl, rA = %edx, rB = ----, valC = 0x0, valP = 0x38, Stat = AOK
+E: instr = irmovl, valC = 0x14, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %edx, dstM = ----, Stat = AOK
+M: instr = pushl, Cnd = 1, valE = 0xf4, valA = 0x4
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x4, valM = 0x0, dstE = %eax, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x38, imem_instr = call, f_instr = call
+	Execute: ALU: + 0x14 0x0 --> 0x14
+	Writeback: Wrote 0x4 to register %eax
+	Wrote 0x4 to address 0xf4
+
+Cycle 10. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x42
+D: instr = call, rA = ----, rB = ----, valC = 0x42, valP = 0x3d, Stat = AOK
+E: instr = pushl, valC = 0x0, valA = 0x14, valB = 0xf4
+   srcA = %edx, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x14, valA = 0x0
+   dstE = %edx, dstM = ----, Stat = AOK
+W: instr = pushl, valE = 0xf4, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x42, imem_instr = pushl, f_instr = pushl
+	Execute: ALU: + 0xfffffffc 0xf4 --> 0xf0
+	Writeback: Wrote 0xf4 to register %esp
+
+Cycle 11. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x44
+D: instr = pushl, rA = %ebp, rB = ----, valC = 0x0, valP = 0x44, Stat = AOK
+E: instr = call, valC = 0x42, valA = 0x3d, valB = 0xf0
+   srcA = ----, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = pushl, Cnd = 1, valE = 0xf0, valA = 0x14
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x14, valM = 0x0, dstE = %edx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x44, imem_instr = rrmovl, f_instr = rrmovl
+	Execute: ALU: + 0xfffffffc 0xf0 --> 0xec
+	Writeback: Wrote 0x14 to register %edx
+	Wrote 0x14 to address 0xf0
+
+Cycle 12. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x46
+D: instr = rrmovl, rA = %esp, rB = %ebp, valC = 0x0, valP = 0x46, Stat = AOK
+E: instr = pushl, valC = 0x0, valA = 0xf8, valB = 0xec
+   srcA = %ebp, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = call, Cnd = 1, valE = 0xec, valA = 0x3d
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = pushl, valE = 0xf0, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x46, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0xfffffffc 0xec --> 0xe8
+	Writeback: Wrote 0xf0 to register %esp
+	Wrote 0x3d to address 0xec
+
+Cycle 13. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x4c
+D: instr = mrmovl, rA = %ecx, rB = %ebp, valC = 0x8, valP = 0x4c, Stat = AOK
+E: instr = rrmovl, valC = 0x0, valA = 0xe8, valB = 0x0
+   srcA = %esp, srcB = ----, dstE = %ebp, dstM = ----, Stat = AOK
+M: instr = pushl, Cnd = 1, valE = 0xe8, valA = 0xf8
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = call, valE = 0xec, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x4c, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0xe8 0x0 --> 0xe8
+	Writeback: Wrote 0xec to register %esp
+	Wrote 0xf8 to address 0xe8
+
+Cycle 14. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x52
+D: instr = mrmovl, rA = %edx, rB = %ebp, valC = 0xc, valP = 0x52, Stat = AOK
+E: instr = mrmovl, valC = 0x8, valA = 0x0, valB = 0xe8
+   srcA = ----, srcB = %ebp, dstE = ----, dstM = %ecx, Stat = AOK
+M: instr = rrmovl, Cnd = 1, valE = 0xe8, valA = 0xe8
+   dstE = %ebp, dstM = ----, Stat = AOK
+W: instr = pushl, valE = 0xe8, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x52, imem_instr = xorl, f_instr = xorl
+	Execute: ALU: + 0x8 0xe8 --> 0xf0
+	Writeback: Wrote 0xe8 to register %esp
+
+Cycle 15. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x54
+D: instr = xorl, rA = %eax, rB = %eax, valC = 0x0, valP = 0x54, Stat = AOK
+E: instr = mrmovl, valC = 0xc, valA = 0xf0, valB = 0xe8
+   srcA = ----, srcB = %ebp, dstE = ----, dstM = %edx, Stat = AOK
+M: instr = mrmovl, Cnd = 1, valE = 0xf0, valA = 0x0
+   dstE = ----, dstM = %ecx, Stat = AOK
+W: instr = rrmovl, valE = 0xe8, valM = 0x0, dstE = %ebp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x54, imem_instr = andl, f_instr = andl
+	Memory: Read 0x14 from 0xf0
+	Execute: ALU: + 0xc 0xe8 --> 0xf4
+	Writeback: Wrote 0xe8 to register %ebp
+
+Cycle 16. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x56
+D: instr = andl, rA = %edx, rB = %edx, valC = 0x0, valP = 0x56, Stat = AOK
+E: instr = xorl, valC = 0x0, valA = 0x4, valB = 0x4
+   srcA = %eax, srcB = %eax, dstE = %eax, dstM = ----, Stat = AOK
+M: instr = mrmovl, Cnd = 1, valE = 0xf4, valA = 0xf0
+   dstE = ----, dstM = %edx, Stat = AOK
+W: instr = mrmovl, valE = 0xf0, valM = 0x14, dstE = ----, dstM = %ecx, Stat = AOK
+	Fetch: f_pc = 0x56, imem_instr = je, f_instr = je
+	Memory: Read 0x4 from 0xf4
+	Execute: ALU: ^ 0x4 0x4 --> 0x0
+	Execute: New cc = Z=1 S=0 O=0
+	Writeback: Wrote 0x14 to register %ecx
+
+Cycle 17. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x78
+D: instr = je, rA = ----, rB = ----, valC = 0x78, valP = 0x5b, Stat = AOK
+E: instr = andl, valC = 0x0, valA = 0x4, valB = 0x4
+   srcA = %edx, srcB = %edx, dstE = %edx, dstM = ----, Stat = AOK
+M: instr = xorl, Cnd = 1, valE = 0x0, valA = 0x4
+   dstE = %eax, dstM = ----, Stat = AOK
+W: instr = mrmovl, valE = 0xf4, valM = 0x4, dstE = ----, dstM = %edx, Stat = AOK
+	Fetch: f_pc = 0x78, imem_instr = rrmovl, f_instr = rrmovl
+	Execute: ALU: & 0x4 0x4 --> 0x4
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0x4 to register %edx
+
+Cycle 18. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x7a
+D: instr = rrmovl, rA = %ebp, rB = %esp, valC = 0x0, valP = 0x7a, Stat = AOK
+E: instr = je, valC = 0x78, valA = 0x5b, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = AOK
+M: instr = andl, Cnd = 0, valE = 0x4, valA = 0x4
+   dstE = %edx, dstM = ----, Stat = AOK
+W: instr = xorl, valE = 0x0, valM = 0x0, dstE = %eax, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x7a, imem_instr = popl, f_instr = popl
+	Execute: instr = je, cc = Z=0 S=0 O=0, branch not taken
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0x0 to register %eax
+
+Cycle 19. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x7c
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = je, Cnd = 0, valE = 0x0, valA = 0x5b
+   dstE = ----, dstM = ----, Stat = AOK
+W: instr = andl, valE = 0x4, valM = 0x0, dstE = %edx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x5b, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0x4 to register %edx
+
+Cycle 20. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x61
+D: instr = mrmovl, rA = %esi, rB = %ecx, valC = 0x0, valP = 0x61, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = je, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x61, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 21. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = mrmovl, valC = 0x0, valA = 0x0, valB = 0x14
+   srcA = ----, srcB = %ecx, dstE = ----, dstM = %esi, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x0 0x14 --> 0x14
+
+Cycle 22. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = mrmovl, Cnd = 1, valE = 0x14, valA = 0x0
+   dstE = ----, dstM = %esi, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Memory: Read 0xd from 0x14
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 23. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x69
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0x4, valP = 0x69, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xd, valB = 0x0
+   srcA = %esi, srcB = %eax, dstE = %eax, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = mrmovl, valE = 0x14, valM = 0xd, dstE = ----, dstM = %esi, Stat = AOK
+	Fetch: f_pc = 0x69, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0xd 0x0 --> 0xd
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xd to register %esi
+
+Cycle 24. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x6b
+D: instr = addl, rA = %ebx, rB = %ecx, valC = 0x0, valP = 0x6b, Stat = AOK
+E: instr = irmovl, valC = 0x4, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0xd, valA = 0xd
+   dstE = %eax, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x6b, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x4 0x0 --> 0x4
+
+Cycle 25. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x71
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0xffffffff, valP = 0x71, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0x4, valB = 0x14
+   srcA = %ebx, srcB = %ecx, dstE = %ecx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x4, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0xd, valM = 0x0, dstE = %eax, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x71, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0x4 0x14 --> 0x18
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xd to register %eax
+
+Cycle 26. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x73
+D: instr = addl, rA = %ebx, rB = %edx, valC = 0x0, valP = 0x73, Stat = AOK
+E: instr = irmovl, valC = 0xffffffff, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x18, valA = 0x4
+   dstE = %ecx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x4, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x73, imem_instr = jne, f_instr = jne
+	Execute: ALU: + 0xffffffff 0x0 --> 0xffffffff
+	Writeback: Wrote 0x4 to register %ebx
+
+Cycle 27. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x5b
+D: instr = jne, rA = ----, rB = ----, valC = 0x5b, valP = 0x78, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xffffffff, valB = 0x4
+   srcA = %ebx, srcB = %edx, dstE = %edx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0xffffffff, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x18, valM = 0x0, dstE = %ecx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x5b, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0xffffffff 0x4 --> 0x3
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0x18 to register %ecx
+
+Cycle 28. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x61
+D: instr = mrmovl, rA = %esi, rB = %ecx, valC = 0x0, valP = 0x61, Stat = AOK
+E: instr = jne, valC = 0x5b, valA = 0x78, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x3, valA = 0xffffffff
+   dstE = %edx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0xffffffff, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x61, imem_instr = addl, f_instr = addl
+	Execute: instr = jne, cc = Z=0 S=0 O=0, branch taken
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xffffffff to register %ebx
+
+Cycle 29. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = mrmovl, valC = 0x0, valA = 0x0, valB = 0x18
+   srcA = ----, srcB = %ecx, dstE = ----, dstM = %esi, Stat = AOK
+M: instr = jne, Cnd = 1, valE = 0x0, valA = 0x78
+   dstE = ----, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x3, valM = 0x0, dstE = %edx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x0 0x18 --> 0x18
+	Writeback: Wrote 0x3 to register %edx
+
+Cycle 30. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = mrmovl, Cnd = 1, valE = 0x18, valA = 0x0
+   dstE = ----, dstM = %esi, Stat = AOK
+W: instr = jne, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Memory: Read 0xc0 from 0x18
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 31. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x69
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0x4, valP = 0x69, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xc0, valB = 0xd
+   srcA = %esi, srcB = %eax, dstE = %eax, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = mrmovl, valE = 0x18, valM = 0xc0, dstE = ----, dstM = %esi, Stat = AOK
+	Fetch: f_pc = 0x69, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0xc0 0xd --> 0xcd
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xc0 to register %esi
+
+Cycle 32. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x6b
+D: instr = addl, rA = %ebx, rB = %ecx, valC = 0x0, valP = 0x6b, Stat = AOK
+E: instr = irmovl, valC = 0x4, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0xcd, valA = 0xc0
+   dstE = %eax, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x6b, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x4 0x0 --> 0x4
+
+Cycle 33. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x71
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0xffffffff, valP = 0x71, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0x4, valB = 0x18
+   srcA = %ebx, srcB = %ecx, dstE = %ecx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x4, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0xcd, valM = 0x0, dstE = %eax, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x71, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0x4 0x18 --> 0x1c
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xcd to register %eax
+
+Cycle 34. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x73
+D: instr = addl, rA = %ebx, rB = %edx, valC = 0x0, valP = 0x73, Stat = AOK
+E: instr = irmovl, valC = 0xffffffff, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x1c, valA = 0x4
+   dstE = %ecx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x4, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x73, imem_instr = jne, f_instr = jne
+	Execute: ALU: + 0xffffffff 0x0 --> 0xffffffff
+	Writeback: Wrote 0x4 to register %ebx
+
+Cycle 35. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x5b
+D: instr = jne, rA = ----, rB = ----, valC = 0x5b, valP = 0x78, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xffffffff, valB = 0x3
+   srcA = %ebx, srcB = %edx, dstE = %edx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0xffffffff, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x1c, valM = 0x0, dstE = %ecx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x5b, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0xffffffff 0x3 --> 0x2
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0x1c to register %ecx
+
+Cycle 36. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x61
+D: instr = mrmovl, rA = %esi, rB = %ecx, valC = 0x0, valP = 0x61, Stat = AOK
+E: instr = jne, valC = 0x5b, valA = 0x78, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x2, valA = 0xffffffff
+   dstE = %edx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0xffffffff, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x61, imem_instr = addl, f_instr = addl
+	Execute: instr = jne, cc = Z=0 S=0 O=0, branch taken
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xffffffff to register %ebx
+
+Cycle 37. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = mrmovl, valC = 0x0, valA = 0x0, valB = 0x1c
+   srcA = ----, srcB = %ecx, dstE = ----, dstM = %esi, Stat = AOK
+M: instr = jne, Cnd = 1, valE = 0x0, valA = 0x78
+   dstE = ----, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x2, valM = 0x0, dstE = %edx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x0 0x1c --> 0x1c
+	Writeback: Wrote 0x2 to register %edx
+
+Cycle 38. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = mrmovl, Cnd = 1, valE = 0x1c, valA = 0x0
+   dstE = ----, dstM = %esi, Stat = AOK
+W: instr = jne, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Memory: Read 0xb00 from 0x1c
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 39. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x69
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0x4, valP = 0x69, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xb00, valB = 0xcd
+   srcA = %esi, srcB = %eax, dstE = %eax, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = mrmovl, valE = 0x1c, valM = 0xb00, dstE = ----, dstM = %esi, Stat = AOK
+	Fetch: f_pc = 0x69, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0xb00 0xcd --> 0xbcd
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xb00 to register %esi
+
+Cycle 40. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x6b
+D: instr = addl, rA = %ebx, rB = %ecx, valC = 0x0, valP = 0x6b, Stat = AOK
+E: instr = irmovl, valC = 0x4, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0xbcd, valA = 0xb00
+   dstE = %eax, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x6b, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x4 0x0 --> 0x4
+
+Cycle 41. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x71
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0xffffffff, valP = 0x71, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0x4, valB = 0x1c
+   srcA = %ebx, srcB = %ecx, dstE = %ecx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x4, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0xbcd, valM = 0x0, dstE = %eax, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x71, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0x4 0x1c --> 0x20
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xbcd to register %eax
+
+Cycle 42. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x73
+D: instr = addl, rA = %ebx, rB = %edx, valC = 0x0, valP = 0x73, Stat = AOK
+E: instr = irmovl, valC = 0xffffffff, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x20, valA = 0x4
+   dstE = %ecx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x4, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x73, imem_instr = jne, f_instr = jne
+	Execute: ALU: + 0xffffffff 0x0 --> 0xffffffff
+	Writeback: Wrote 0x4 to register %ebx
+
+Cycle 43. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x5b
+D: instr = jne, rA = ----, rB = ----, valC = 0x5b, valP = 0x78, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xffffffff, valB = 0x2
+   srcA = %ebx, srcB = %edx, dstE = %edx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0xffffffff, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x20, valM = 0x0, dstE = %ecx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x5b, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0xffffffff 0x2 --> 0x1
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0x20 to register %ecx
+
+Cycle 44. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x61
+D: instr = mrmovl, rA = %esi, rB = %ecx, valC = 0x0, valP = 0x61, Stat = AOK
+E: instr = jne, valC = 0x5b, valA = 0x78, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x1, valA = 0xffffffff
+   dstE = %edx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0xffffffff, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x61, imem_instr = addl, f_instr = addl
+	Execute: instr = jne, cc = Z=0 S=0 O=0, branch taken
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xffffffff to register %ebx
+
+Cycle 45. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = mrmovl, valC = 0x0, valA = 0x0, valB = 0x20
+   srcA = ----, srcB = %ecx, dstE = ----, dstM = %esi, Stat = AOK
+M: instr = jne, Cnd = 1, valE = 0x0, valA = 0x78
+   dstE = ----, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x1, valM = 0x0, dstE = %edx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x0 0x20 --> 0x20
+	Writeback: Wrote 0x1 to register %edx
+
+Cycle 46. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = addl, rA = %esi, rB = %eax, valC = 0x0, valP = 0x63, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = mrmovl, Cnd = 1, valE = 0x20, valA = 0x0
+   dstE = ----, dstM = %esi, Stat = AOK
+W: instr = jne, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x63, imem_instr = irmovl, f_instr = irmovl
+	Memory: Read 0xa000 from 0x20
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 47. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x69
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0x4, valP = 0x69, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xa000, valB = 0xbcd
+   srcA = %esi, srcB = %eax, dstE = %eax, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = mrmovl, valE = 0x20, valM = 0xa000, dstE = ----, dstM = %esi, Stat = AOK
+	Fetch: f_pc = 0x69, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0xa000 0xbcd --> 0xabcd
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xa000 to register %esi
+
+Cycle 48. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x6b
+D: instr = addl, rA = %ebx, rB = %ecx, valC = 0x0, valP = 0x6b, Stat = AOK
+E: instr = irmovl, valC = 0x4, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0xabcd, valA = 0xa000
+   dstE = %eax, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x6b, imem_instr = irmovl, f_instr = irmovl
+	Execute: ALU: + 0x4 0x0 --> 0x4
+
+Cycle 49. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x71
+D: instr = irmovl, rA = ----, rB = %ebx, valC = 0xffffffff, valP = 0x71, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0x4, valB = 0x20
+   srcA = %ebx, srcB = %ecx, dstE = %ecx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0x4, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0xabcd, valM = 0x0, dstE = %eax, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x71, imem_instr = addl, f_instr = addl
+	Execute: ALU: + 0x4 0x20 --> 0x24
+	Execute: New cc = Z=0 S=0 O=0
+	Writeback: Wrote 0xabcd to register %eax
+
+Cycle 50. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x73
+D: instr = addl, rA = %ebx, rB = %edx, valC = 0x0, valP = 0x73, Stat = AOK
+E: instr = irmovl, valC = 0xffffffff, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = %ebx, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x24, valA = 0x4
+   dstE = %ecx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0x4, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x73, imem_instr = jne, f_instr = jne
+	Execute: ALU: + 0xffffffff 0x0 --> 0xffffffff
+	Writeback: Wrote 0x4 to register %ebx
+
+Cycle 51. CC=Z=0 S=0 O=0, Stat=AOK
+F: predPC = 0x5b
+D: instr = jne, rA = ----, rB = ----, valC = 0x5b, valP = 0x78, Stat = AOK
+E: instr = addl, valC = 0x0, valA = 0xffffffff, valB = 0x1
+   srcA = %ebx, srcB = %edx, dstE = %edx, dstM = ----, Stat = AOK
+M: instr = irmovl, Cnd = 1, valE = 0xffffffff, valA = 0x0
+   dstE = %ebx, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x24, valM = 0x0, dstE = %ecx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x5b, imem_instr = mrmovl, f_instr = mrmovl
+	Execute: ALU: + 0xffffffff 0x1 --> 0x0
+	Execute: New cc = Z=1 S=0 O=0
+	Writeback: Wrote 0x24 to register %ecx
+
+Cycle 52. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x61
+D: instr = mrmovl, rA = %esi, rB = %ecx, valC = 0x0, valP = 0x61, Stat = AOK
+E: instr = jne, valC = 0x5b, valA = 0x78, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = AOK
+M: instr = addl, Cnd = 1, valE = 0x0, valA = 0xffffffff
+   dstE = %edx, dstM = ----, Stat = AOK
+W: instr = irmovl, valE = 0xffffffff, valM = 0x0, dstE = %ebx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x61, imem_instr = addl, f_instr = addl
+	Execute: instr = jne, cc = Z=1 S=0 O=0, branch not taken
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xffffffff to register %ebx
+
+Cycle 53. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x63
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = jne, Cnd = 0, valE = 0x0, valA = 0x78
+   dstE = ----, dstM = ----, Stat = AOK
+W: instr = addl, valE = 0x0, valM = 0x0, dstE = %edx, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x78, imem_instr = rrmovl, f_instr = rrmovl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0x0 to register %edx
+
+Cycle 54. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x7a
+D: instr = rrmovl, rA = %ebp, rB = %esp, valC = 0x0, valP = 0x7a, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = jne, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x7a, imem_instr = popl, f_instr = popl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 55. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x7c
+D: instr = popl, rA = %ebp, rB = ----, valC = 0x0, valP = 0x7c, Stat = AOK
+E: instr = rrmovl, valC = 0x0, valA = 0xe8, valB = 0x0
+   srcA = %ebp, srcB = ----, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x7c, imem_instr = ret, f_instr = ret
+	Execute: ALU: + 0xe8 0x0 --> 0xe8
+
+Cycle 56. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x7d
+D: instr = ret, rA = ----, rB = ----, valC = 0x0, valP = 0x7d, Stat = AOK
+E: instr = popl, valC = 0x0, valA = 0xe8, valB = 0xe8
+   srcA = %esp, srcB = %esp, dstE = %esp, dstM = %ebp, Stat = AOK
+M: instr = rrmovl, Cnd = 1, valE = 0xe8, valA = 0xe8
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x7d, imem_instr = halt, f_instr = halt
+	Execute: ALU: + 0x4 0xe8 --> 0xec
+
+Cycle 57. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x7d
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = ret, valC = 0x0, valA = 0xec, valB = 0xec
+   srcA = %esp, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = popl, Cnd = 1, valE = 0xec, valA = 0xe8
+   dstE = %esp, dstM = %ebp, Stat = AOK
+W: instr = rrmovl, valE = 0xe8, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x7d, imem_instr = halt, f_instr = halt
+	Memory: Read 0xf8 from 0xe8
+	Execute: ALU: + 0x4 0xec --> 0xf0
+	Writeback: Wrote 0xe8 to register %esp
+
+Cycle 58. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x7d
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = ret, Cnd = 1, valE = 0xf0, valA = 0xec
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = popl, valE = 0xec, valM = 0xf8, dstE = %esp, dstM = %ebp, Stat = AOK
+	Fetch: f_pc = 0x7d, imem_instr = halt, f_instr = halt
+	Memory: Read 0x3d from 0xec
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xec to register %esp
+	Writeback: Wrote 0xf8 to register %ebp
+
+Cycle 59. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x7d
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = ret, valE = 0xf0, valM = 0x3d, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x3d, imem_instr = rrmovl, f_instr = rrmovl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xf0 to register %esp
+
+Cycle 60. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x3f
+D: instr = rrmovl, rA = %ebp, rB = %esp, valC = 0x0, valP = 0x3f, Stat = AOK
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x3f, imem_instr = popl, f_instr = popl
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 61. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x41
+D: instr = popl, rA = %ebp, rB = ----, valC = 0x0, valP = 0x41, Stat = AOK
+E: instr = rrmovl, valC = 0x0, valA = 0xf8, valB = 0x0
+   srcA = %ebp, srcB = ----, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x41, imem_instr = ret, f_instr = ret
+	Execute: ALU: + 0xf8 0x0 --> 0xf8
+
+Cycle 62. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x42
+D: instr = ret, rA = ----, rB = ----, valC = 0x0, valP = 0x42, Stat = AOK
+E: instr = popl, valC = 0x0, valA = 0xf8, valB = 0xf8
+   srcA = %esp, srcB = %esp, dstE = %esp, dstM = %ebp, Stat = AOK
+M: instr = rrmovl, Cnd = 1, valE = 0xf8, valA = 0xf8
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x42, imem_instr = pushl, f_instr = pushl
+	Execute: ALU: + 0x4 0xf8 --> 0xfc
+
+Cycle 63. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x42
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = ret, valC = 0x0, valA = 0xfc, valB = 0xfc
+   srcA = %esp, srcB = %esp, dstE = %esp, dstM = ----, Stat = AOK
+M: instr = popl, Cnd = 1, valE = 0xfc, valA = 0xf8
+   dstE = %esp, dstM = %ebp, Stat = AOK
+W: instr = rrmovl, valE = 0xf8, valM = 0x0, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x42, imem_instr = pushl, f_instr = pushl
+	Memory: Read 0x100 from 0xf8
+	Execute: ALU: + 0x4 0xfc --> 0x100
+	Writeback: Wrote 0xf8 to register %esp
+
+Cycle 64. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x42
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = ret, Cnd = 1, valE = 0x100, valA = 0xfc
+   dstE = %esp, dstM = ----, Stat = AOK
+W: instr = popl, valE = 0xfc, valM = 0x100, dstE = %esp, dstM = %ebp, Stat = AOK
+	Fetch: f_pc = 0x42, imem_instr = pushl, f_instr = pushl
+	Memory: Read 0x11 from 0xfc
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0xfc to register %esp
+	Writeback: Wrote 0x100 to register %ebp
+
+Cycle 65. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x42
+D: instr = nop, rA = ----, rB = ----, valC = 0x0, valP = 0x0, Stat = BUB
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = ret, valE = 0x100, valM = 0x11, dstE = %esp, dstM = ----, Stat = AOK
+	Fetch: f_pc = 0x11, imem_instr = halt, f_instr = halt
+	Execute: ALU: + 0x0 0x0 --> 0x0
+	Writeback: Wrote 0x100 to register %esp
+
+Cycle 66. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x12
+D: instr = halt, rA = ----, rB = ----, valC = 0x0, valP = 0x12, Stat = HLT
+E: instr = nop, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = BUB
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x12, imem_instr = halt, f_instr = halt
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 67. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x13
+D: instr = halt, rA = ----, rB = ----, valC = 0x0, valP = 0x13, Stat = HLT
+E: instr = halt, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = HLT
+M: instr = nop, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x13, imem_instr = halt, f_instr = halt
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 68. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x14
+D: instr = halt, rA = ----, rB = ----, valC = 0x0, valP = 0x14, Stat = HLT
+E: instr = halt, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = HLT
+M: instr = halt, Cnd = 1, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = HLT
+W: instr = nop, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = BUB
+	Fetch: f_pc = 0x14, imem_instr = <bad>, f_instr = <bad>
+	Execute: ALU: + 0x0 0x0 --> 0x0
+
+Cycle 69. CC=Z=1 S=0 O=0, Stat=AOK
+F: predPC = 0x15
+D: instr = <bad>, rA = ----, rB = ----, valC = 0x0, valP = 0x15, Stat = HLT
+E: instr = halt, valC = 0x0, valA = 0x0, valB = 0x0
+   srcA = ----, srcB = ----, dstE = ----, dstM = ----, Stat = HLT
+M: instr = nop, Cnd = 0, valE = 0x0, valA = 0x0
+   dstE = ----, dstM = ----, Stat = BUB
+W: instr = halt, valE = 0x0, valM = 0x0, dstE = ----, dstM = ----, Stat = HLT
+	Fetch: f_pc = 0x15, imem_instr = halt, f_instr = halt
+	Execute: ALU: + 0x0 0x0 --> 0x0
+70 instructions executed
+Status = HLT
+Condition Codes: Z=1 S=0 O=0
+Changed Register State:
+%eax:	0x00000000	0x0000abcd
+%ecx:	0x00000000	0x00000024
+%ebx:	0x00000000	0xffffffff
+%esp:	0x00000000	0x00000100
+%ebp:	0x00000000	0x00000100
+%esi:	0x00000000	0x0000a000
+Changed Memory State:
+0x00e8:	0x00000000	0x000000f8
+0x00ec:	0x00000000	0x0000003d
+0x00f0:	0x00000000	0x00000014
+0x00f4:	0x00000000	0x00000004
+0x00f8:	0x00000000	0x00000100
+0x00fc:	0x00000000	0x00000011
+ISA Check Succeeds
+CPI: 66 cycles/52 instructions = 1.27

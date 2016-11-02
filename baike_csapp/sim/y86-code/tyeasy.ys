@@ -1,0 +1,16 @@
+    .pos 0
+Init: # use %edx as flag
+    irmovl $1, %edx
+    irmovl $0x1020, %eax
+    rmmovl %edx, (%eax)
+    mrmovl (%eax), 
+    irmovl $0, %eax
+    andl %edx, %edx
+    je Sender
+    jmp Receiver
+
+Sender:
+    irmovl $0, %edx
+
+Receiver:
+    irmovl $1, %ebx

@@ -1,0 +1,4 @@
+(cd misc; make all)
+make[1]: Entering directory `/home/bk/Documents/abc/sim/misc'
+gcc -Wall -g -g3   -c -o isa.o isa.c
+make[1]: Leaving directory `/home/bk/Documents/abc/sim/misc'

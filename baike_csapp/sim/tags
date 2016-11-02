@@ -1,0 +1,1462 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AND	misc/hcl.tab.c	/^    AND = 276,$/;"	e	enum:yytokentype	file:
+AND	misc/hcl.tab.h	/^    AND = 276,$/;"	e	enum:yytokentype
+ASSIGN	misc/hcl.tab.c	/^    ASSIGN = 266,$/;"	e	enum:yytokentype	file:
+ASSIGN	misc/hcl.tab.h	/^    ASSIGN = 266,$/;"	e	enum:yytokentype
+A_ADD	misc/isa.h	/^typedef enum { A_ADD, A_SUB, A_AND, A_XOR, A_NONE } alu_t;$/;"	e	enum:__anon10
+A_AND	misc/isa.h	/^typedef enum { A_ADD, A_SUB, A_AND, A_XOR, A_NONE } alu_t;$/;"	e	enum:__anon10
+A_NONE	misc/isa.h	/^typedef enum { A_ADD, A_SUB, A_AND, A_XOR, A_NONE } alu_t;$/;"	e	enum:__anon10
+A_SUB	misc/isa.h	/^typedef enum { A_ADD, A_SUB, A_AND, A_XOR, A_NONE } alu_t;$/;"	e	enum:__anon10
+A_XOR	misc/isa.h	/^typedef enum { A_ADD, A_SUB, A_AND, A_XOR, A_NONE } alu_t;$/;"	e	enum:__anon10
+BEGIN	misc/lex.yy.c	125;"	d	file:
+BEGIN	misc/yas-grammar.c	125;"	d	file:
+BOOL	misc/hcl.tab.c	/^    BOOL = 260,$/;"	e	enum:yytokentype	file:
+BOOL	misc/hcl.tab.h	/^    BOOL = 260,$/;"	e	enum:yytokentype
+BOOLARG	misc/hcl.tab.c	/^    BOOLARG = 259,$/;"	e	enum:yytokentype	file:
+BOOLARG	misc/hcl.tab.h	/^    BOOLARG = 259,$/;"	e	enum:yytokentype
+BPL	misc/isa.c	25;"	d	file:
+CC	misc/Makefile	/^CC=gcc$/;"	m
+CC	pipe/Makefile	/^CC=gcc$/;"	m
+CC	seq/Makefile	/^CC=gcc$/;"	m
+CC	y86-code/Makefile	/^CC = gcc$/;"	m
+CFLAGS	misc/Makefile	/^CFLAGS=-Wall -g -g3$/;"	m
+CFLAGS	pipe/Makefile	/^CFLAGS=-Wall$/;"	m
+CFLAGS	seq/Makefile	/^CFLAGS=-Wall -O2$/;"	m
+CFLAGS	y86-code/Makefile	/^CFLAGS = -Wall -O2$/;"	m
+COLON	misc/hcl.tab.c	/^    COLON = 268,$/;"	e	enum:yytokentype	file:
+COLON	misc/hcl.tab.h	/^    COLON = 268,$/;"	e	enum:yytokentype
+COM	misc/yas-grammar.c	753;"	d	file:
+COMMA	misc/hcl.tab.c	/^    COMMA = 269,$/;"	e	enum:yytokentype	file:
+COMMA	misc/hcl.tab.h	/^    COMMA = 269,$/;"	e	enum:yytokentype
+COMP	misc/hcl.tab.c	/^    COMP = 279,$/;"	e	enum:yytokentype	file:
+COMP	misc/hcl.tab.h	/^    COMP = 279,$/;"	e	enum:yytokentype
+C_E	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+C_G	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+C_GE	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+C_L	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+C_LE	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+C_NE	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+C_YES	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	e	enum:__anon12
+DEFAULTNAME	pipe/psim.c	21;"	d	file:
+DEFAULT_CC	misc/isa.h	218;"	d
+ECHO	misc/lex.yy.c	602;"	d	file:
+ECHO	misc/yas-grammar.c	845;"	d	file:
+ELE	misc/examples.c	/^typedef struct ELE {$/;"	s	file:
+EOB_ACT_CONTINUE_SCAN	misc/lex.yy.c	168;"	d	file:
+EOB_ACT_CONTINUE_SCAN	misc/yas-grammar.c	168;"	d	file:
+EOB_ACT_END_OF_FILE	misc/lex.yy.c	169;"	d	file:
+EOB_ACT_END_OF_FILE	misc/yas-grammar.c	169;"	d	file:
+EOB_ACT_LAST_MATCH	misc/lex.yy.c	170;"	d	file:
+EOB_ACT_LAST_MATCH	misc/yas-grammar.c	170;"	d	file:
+ERR	misc/yas-grammar.c	752;"	d	file:
+ERRLIM	misc/hcl.tab.c	75;"	d	file:
+EXIT_SUCCESS	misc/hcl.tab.c	325;"	d	file:
+EXIT_SUCCESS	misc/hcl.tab.c	353;"	d	file:
+EX_STAGE	pipe/sim.h	/^typedef enum { IF_STAGE, ID_STAGE, EX_STAGE, MEM_STAGE, WB_STAGE } stage_id_t;$/;"	e	enum:__anon30
+FALSE	misc/isa.h	/^typedef enum { FALSE, TRUE } bool_t;$/;"	e	enum:__anon13
+FILES	y86-code/Makefile	/^SEQ+FILES = asum.seq+ asumr.seq+ cjr.seq+ j-cc.seq+ poptest.seq+ pushquestion.seq+ pushtest.seq+ prog1.seq+ prog2.seq+ prog3.seq+ prog4.seq+ prog5.seq+ prog6.seq+ prog7.seq+ prog8.seq+ ret-hazard.seq+$/;"	m
+FILE_MODE	misc/isa.c	17;"	d	file:
+FLEXINT_H	misc/lex.yy.c	29;"	d	file:
+FLEXINT_H	misc/yas-grammar.c	29;"	d	file:
+FLEX_BETA	misc/lex.yy.c	13;"	d	file:
+FLEX_BETA	misc/yas-grammar.c	13;"	d	file:
+FLEX_SCANNER	misc/lex.yy.c	8;"	d	file:
+FLEX_SCANNER	misc/yas-grammar.c	8;"	d	file:
+F_NONE	misc/isa.h	/^typedef enum { F_NONE } fun_t;$/;"	e	enum:__anon11
+GETADDRESS	misc/isa.h	87;"	d
+GETID	misc/isa.h	85;"	d
+GETMESSAGE	misc/isa.h	82;"	d
+GETRESPONSE	misc/isa.h	80;"	d
+GETTYPE	misc/isa.h	86;"	d
+GETUSERNUM	misc/isa.h	81;"	d
+GET_ADDR	misc/isa.h	160;"	d
+GET_ATAGS	misc/isa.h	154;"	d
+GET_BLOCK	misc/isa.h	156;"	d
+GET_CTAGS	misc/isa.h	158;"	d
+GET_FUN	misc/isa.h	53;"	d
+GET_ICODE	misc/isa.h	50;"	d
+GET_OF	misc/isa.h	214;"	d
+GET_RA	pipe/sim.h	16;"	d
+GET_RA	seq/sim.h	4;"	d
+GET_RB	pipe/sim.h	19;"	d
+GET_RB	seq/sim.h	7;"	d
+GET_SETS	misc/isa.h	155;"	d
+GET_SF	misc/isa.h	213;"	d
+GET_ZF	misc/isa.h	212;"	d
+GUIMODE	Makefile	/^GUIMODE=-DHAS_GUI$/;"	m
+GUIMODE	pipe/Makefile	/^GUIMODE=-DHAS_GUI$/;"	m
+GUIMODE	seq/Makefile	/^GUIMODE=-DHAS_GUI$/;"	m
+HCL2C	pipe/Makefile	/^HCL2C=$(MISCDIR)\/hcl2c$/;"	m
+HCL2C	seq/Makefile	/^HCL2C=$(MISCDIR)\/hcl2c$/;"	m
+HI4	misc/isa.h	46;"	d
+HPACK	misc/isa.h	43;"	d
+ID_STAGE	pipe/sim.h	/^typedef enum { IF_STAGE, ID_STAGE, EX_STAGE, MEM_STAGE, WB_STAGE } stage_id_t;$/;"	e	enum:__anon30
+IF_STAGE	pipe/sim.h	/^typedef enum { IF_STAGE, ID_STAGE, EX_STAGE, MEM_STAGE, WB_STAGE } stage_id_t;$/;"	e	enum:__anon30
+IN	misc/hcl.tab.c	/^    IN = 280$/;"	e	enum:yytokentype	file:
+IN	misc/hcl.tab.h	/^    IN = 280$/;"	e	enum:yytokentype
+INC	pipe/Makefile	/^INC=$(TKINC) -I$(MISCDIR) $(GUIMODE)$/;"	m
+INC	seq/Makefile	/^INC=$(TKINC) -I$(MISCDIR) $(GUIMODE)$/;"	m
+INITIAL	misc/lex.yy.c	510;"	d	file:
+INITIAL	misc/yas-grammar.c	751;"	d	file:
+INIT_CNT	misc/yas.c	496;"	d	file:
+INT	misc/hcl.tab.c	/^    INT = 262,$/;"	e	enum:yytokentype	file:
+INT	misc/hcl.tab.h	/^    INT = 262,$/;"	e	enum:yytokentype
+INT16_MAX	misc/lex.yy.c	71;"	d	file:
+INT16_MAX	misc/yas-grammar.c	71;"	d	file:
+INT16_MIN	misc/lex.yy.c	62;"	d	file:
+INT16_MIN	misc/yas-grammar.c	62;"	d	file:
+INT32_MAX	misc/lex.yy.c	74;"	d	file:
+INT32_MAX	misc/yas-grammar.c	74;"	d	file:
+INT32_MIN	misc/lex.yy.c	65;"	d	file:
+INT32_MIN	misc/yas-grammar.c	65;"	d	file:
+INT8_MAX	misc/lex.yy.c	68;"	d	file:
+INT8_MAX	misc/yas-grammar.c	68;"	d	file:
+INT8_MIN	misc/lex.yy.c	59;"	d	file:
+INT8_MIN	misc/yas-grammar.c	59;"	d	file:
+INTARG	misc/hcl.tab.c	/^    INTARG = 261,$/;"	e	enum:yytokentype	file:
+INTARG	misc/hcl.tab.h	/^    INTARG = 261,$/;"	e	enum:yytokentype
+ISADIR	ptest/Makefile	/^ISADIR = ..\/misc$/;"	m
+ISADIR	y86-code/Makefile	/^ISADIR = ..\/misc$/;"	m
+I_ALU	misc/isa.h	/^	       I_ALU, I_JMP, I_CALL, I_RET, I_PUSHL, I_POPL,$/;"	e	enum:__anon9
+I_ARG	misc/isa.h	/^typedef enum { R_ARG, M_ARG, I_ARG, NO_ARG } arg_t;$/;"	e	enum:__anon8
+I_CALL	misc/isa.h	/^	       I_ALU, I_JMP, I_CALL, I_RET, I_PUSHL, I_POPL,$/;"	e	enum:__anon9
+I_HALT	misc/isa.h	/^typedef enum { I_HALT, I_NOP, I_RRMOVL, I_IRMOVL, I_RMMOVL, I_MRMOVL,$/;"	e	enum:__anon9
+I_IADDL	misc/isa.h	/^	       I_IADDL, I_LEAVE, I_POP2,I_RMCHANGE } itype_t;$/;"	e	enum:__anon9
+I_IRMOVL	misc/isa.h	/^typedef enum { I_HALT, I_NOP, I_RRMOVL, I_IRMOVL, I_RMMOVL, I_MRMOVL,$/;"	e	enum:__anon9
+I_JMP	misc/isa.h	/^	       I_ALU, I_JMP, I_CALL, I_RET, I_PUSHL, I_POPL,$/;"	e	enum:__anon9
+I_LEAVE	misc/isa.h	/^	       I_IADDL, I_LEAVE, I_POP2,I_RMCHANGE } itype_t;$/;"	e	enum:__anon9
+I_MRMOVL	misc/isa.h	/^typedef enum { I_HALT, I_NOP, I_RRMOVL, I_IRMOVL, I_RMMOVL, I_MRMOVL,$/;"	e	enum:__anon9
+I_NOP	misc/isa.h	/^typedef enum { I_HALT, I_NOP, I_RRMOVL, I_IRMOVL, I_RMMOVL, I_MRMOVL,$/;"	e	enum:__anon9
+I_POP2	misc/isa.h	/^	       I_IADDL, I_LEAVE, I_POP2,I_RMCHANGE } itype_t;$/;"	e	enum:__anon9
+I_POPL	misc/isa.h	/^	       I_ALU, I_JMP, I_CALL, I_RET, I_PUSHL, I_POPL,$/;"	e	enum:__anon9
+I_PUSHL	misc/isa.h	/^	       I_ALU, I_JMP, I_CALL, I_RET, I_PUSHL, I_POPL,$/;"	e	enum:__anon9
+I_RET	misc/isa.h	/^	       I_ALU, I_JMP, I_CALL, I_RET, I_PUSHL, I_POPL,$/;"	e	enum:__anon9
+I_RMCHANGE	misc/isa.h	/^	       I_IADDL, I_LEAVE, I_POP2,I_RMCHANGE } itype_t;$/;"	e	enum:__anon9
+I_RMMOVL	misc/isa.h	/^typedef enum { I_HALT, I_NOP, I_RRMOVL, I_IRMOVL, I_RMMOVL, I_MRMOVL,$/;"	e	enum:__anon9
+I_RRMOVL	misc/isa.h	/^typedef enum { I_HALT, I_NOP, I_RRMOVL, I_IRMOVL, I_RMMOVL, I_MRMOVL,$/;"	e	enum:__anon9
+LBRACE	misc/hcl.tab.c	/^    LBRACE = 272,$/;"	e	enum:yytokentype	file:
+LBRACE	misc/hcl.tab.h	/^    LBRACE = 272,$/;"	e	enum:yytokentype
+LBRACK	misc/hcl.tab.c	/^    LBRACK = 274,$/;"	e	enum:yytokentype	file:
+LBRACK	misc/hcl.tab.h	/^    LBRACK = 274,$/;"	e	enum:yytokentype
+LCFLAGS	misc/Makefile	/^LCFLAGS=-O2$/;"	m
+LEX	misc/Makefile	/^LEX = flex$/;"	m
+LEXLIB	misc/Makefile	/^LEXLIB = -lfl$/;"	m
+LIBS	pipe/Makefile	/^LIBS=$(TKLIBS) -lm$/;"	m
+LIBS	seq/Makefile	/^LIBS=$(TKLIBS) -lm$/;"	m
+LINELEN	misc/isa.c	402;"	d	file:
+LO4	misc/isa.h	47;"	d
+LOCK_FILE	clearlock.c	7;"	d	file:
+LOCK_FILE	misc/isa.h	150;"	d
+LOCK_FILE	misc/lock.h	10;"	d
+LOCK_H	misc/lock.h	2;"	d
+LPAREN	misc/hcl.tab.c	/^    LPAREN = 270,$/;"	e	enum:yytokentype	file:
+LPAREN	misc/hcl.tab.h	/^    LPAREN = 270,$/;"	e	enum:yytokentype
+MAKEMESSAGE	misc/isa.h	84;"	d
+MAXARGS	pipe/psim.c	27;"	d	file:
+MAXARGS	seq/ssim.c	23;"	d	file:
+MAXBUF	misc/node.c	13;"	d	file:
+MAXBUF	pipe/psim.c	20;"	d	file:
+MAXBUF	pipe/psim.c	28;"	d	file:
+MAXBUF	seq/ssim.c	17;"	d	file:
+MAXBUF	seq/ssim.c	24;"	d	file:
+MAXERRLEN	misc/node.c	346;"	d	file:
+MAX_PRIVATE_MEM	misc/isa.h	143;"	d
+MAX_STAGE	pipe/psim.c	1266;"	d	file:
+MEM_SIZE	misc/isa.h	139;"	d
+MEM_SIZE	misc/isa.h	141;"	d
+MEM_STAGE	pipe/sim.h	/^typedef enum { IF_STAGE, ID_STAGE, EX_STAGE, MEM_STAGE, WB_STAGE } stage_id_t;$/;"	e	enum:__anon30
+MISCDIR	pipe/Makefile	/^MISCDIR=..\/misc$/;"	m
+MISCDIR	seq/Makefile	/^MISCDIR=..\/misc$/;"	m
+MUX_EX_A	pipe/sim.h	/^typedef enum { MUX_NONE, MUX_EX_A, MUX_EX_B, MUX_MEM_E,$/;"	e	enum:__anon28
+MUX_EX_B	pipe/sim.h	/^typedef enum { MUX_NONE, MUX_EX_A, MUX_EX_B, MUX_MEM_E,$/;"	e	enum:__anon28
+MUX_MEM_E	pipe/sim.h	/^typedef enum { MUX_NONE, MUX_EX_A, MUX_EX_B, MUX_MEM_E,$/;"	e	enum:__anon28
+MUX_NONE	pipe/sim.h	/^typedef enum { MUX_NONE, MUX_EX_A, MUX_EX_B, MUX_MEM_E,$/;"	e	enum:__anon28
+MUX_WB_E	pipe/sim.h	/^	       MUX_WB_M, MUX_WB_E } mux_source_t;$/;"	e	enum:__anon28
+MUX_WB_M	pipe/sim.h	/^	       MUX_WB_M, MUX_WB_E } mux_source_t;$/;"	e	enum:__anon28
+M_ARG	misc/isa.h	/^typedef enum { R_ARG, M_ARG, I_ARG, NO_ARG } arg_t;$/;"	e	enum:__anon8
+NODE	misc/node.h	/^typedef struct NODE {$/;"	s
+NODE_H	misc/node.h	33;"	d
+NOT	misc/hcl.tab.c	/^    NOT = 278,$/;"	e	enum:yytokentype	file:
+NOT	misc/hcl.tab.h	/^    NOT = 278,$/;"	e	enum:yytokentype
+NO_ARG	misc/isa.h	/^typedef enum { R_ARG, M_ARG, I_ARG, NO_ARG } arg_t;$/;"	e	enum:__anon8
+NUM	misc/hcl.tab.c	/^    NUM = 265,$/;"	e	enum:yytokentype	file:
+NUM	misc/hcl.tab.h	/^    NUM = 265,$/;"	e	enum:yytokentype
+N_AND	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_CASE	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_COMP	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_ELE	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_NOT	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_NUM	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_OR	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_QUOTE	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+N_VAR	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	e	enum:__anon3
+OR	misc/hcl.tab.c	/^    OR = 277,$/;"	e	enum:yytokentype	file:
+OR	misc/hcl.tab.h	/^    OR = 277,$/;"	e	enum:yytokentype
+PACK_CC	misc/isa.h	216;"	d
+PIPE	y86-code/Makefile	/^PIPE = ..\/pipe\/psim$/;"	m
+PIPEFILES	y86-code/Makefile	/^PIPEFILES = asum.pipe asumr.pipe cjr.pipe j-cc.pipe poptest.pipe pushquestion.pipe pushtest.pipe prog1.pipe prog2.pipe prog3.pipe prog4.pipe prog5.pipe prog6.pipe prog7.pipe prog8.pipe ret-hazard.pipe$/;"	m
+PIPE_H	pipe/pipeline.h	8;"	d
+PTR	misc/isa.c	180;"	d	file:
+P_BUBBLE	pipe/pipeline.h	/^typedef enum { P_LOAD, P_STALL, P_BUBBLE, P_ERROR } p_stat_t;$/;"	e	enum:__anon26
+P_ERROR	pipe/pipeline.h	/^typedef enum { P_LOAD, P_STALL, P_BUBBLE, P_ERROR } p_stat_t;$/;"	e	enum:__anon26
+P_LOAD	pipe/pipeline.h	/^typedef enum { P_LOAD, P_STALL, P_BUBBLE, P_ERROR } p_stat_t;$/;"	e	enum:__anon26
+P_STALL	pipe/pipeline.h	/^typedef enum { P_LOAD, P_STALL, P_BUBBLE, P_ERROR } p_stat_t;$/;"	e	enum:__anon26
+Postdest	pipe/gen-driver.pl	/^Postdest:$/;"	l
+Predest	pipe/gen-driver.pl	/^Predest:$/;"	l
+QSTRING	misc/hcl.tab.c	/^    QSTRING = 263,$/;"	e	enum:yytokentype	file:
+QSTRING	misc/hcl.tab.h	/^    QSTRING = 263,$/;"	e	enum:yytokentype
+QUOTE	misc/hcl.tab.c	/^    QUOTE = 258,$/;"	e	enum:yytokentype	file:
+QUOTE	misc/hcl.tab.h	/^    QUOTE = 258,$/;"	e	enum:yytokentype
+RBRACE	misc/hcl.tab.c	/^    RBRACE = 273,$/;"	e	enum:yytokentype	file:
+RBRACE	misc/hcl.tab.h	/^    RBRACE = 273,$/;"	e	enum:yytokentype
+RBRACK	misc/hcl.tab.c	/^    RBRACK = 275,$/;"	e	enum:yytokentype	file:
+RBRACK	misc/hcl.tab.h	/^    RBRACK = 275,$/;"	e	enum:yytokentype
+REG_EAX	misc/isa.h	/^typedef enum { REG_EAX, REG_ECX, REG_EDX, REG_EBX,$/;"	e	enum:__anon7
+REG_EBP	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	e	enum:__anon7
+REG_EBX	misc/isa.h	/^typedef enum { REG_EAX, REG_ECX, REG_EDX, REG_EBX,$/;"	e	enum:__anon7
+REG_ECX	misc/isa.h	/^typedef enum { REG_EAX, REG_ECX, REG_EDX, REG_EBX,$/;"	e	enum:__anon7
+REG_EDI	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	e	enum:__anon7
+REG_EDX	misc/isa.h	/^typedef enum { REG_EAX, REG_ECX, REG_EDX, REG_EBX,$/;"	e	enum:__anon7
+REG_ERR	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	e	enum:__anon7
+REG_ESI	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	e	enum:__anon7
+REG_ESP	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	e	enum:__anon7
+REG_NONE	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	e	enum:__anon7
+REJECT	misc/lex.yy.c	493;"	d	file:
+REJECT	misc/yas-grammar.c	732;"	d	file:
+RPAREN	misc/hcl.tab.c	/^    RPAREN = 271,$/;"	e	enum:yytokentype	file:
+RPAREN	misc/hcl.tab.h	/^    RPAREN = 271,$/;"	e	enum:yytokentype
+R_ARG	misc/isa.h	/^typedef enum { R_ARG, M_ARG, I_ARG, NO_ARG } arg_t;$/;"	e	enum:__anon8
+SEMI	misc/hcl.tab.c	/^    SEMI = 267,$/;"	e	enum:yytokentype	file:
+SEMI	misc/hcl.tab.h	/^    SEMI = 267,$/;"	e	enum:yytokentype
+SEQ	y86-code/Makefile	/^SEQ = ..\/seq\/ssim$/;"	m
+SEQFILES	y86-code/Makefile	/^SEQFILES = asum.seq asumr.seq cjr.seq j-cc.seq poptest.seq pushquestion.seq pushtest.seq prog1.seq prog2.seq prog3.seq prog4.seq prog5.seq prog6.seq prog7.seq prog8.seq ret-hazard.seq$/;"	m
+SHARE_FILE	misc/isa.h	149;"	d
+SHARE_SIZE	misc/isa.h	144;"	d
+SIM	ptest/Makefile	/^SIM=..\/pipe\/psim$/;"	m
+STAB	misc/yas.c	494;"	d	file:
+STAT_ADR	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	e	enum:__anon19
+STAT_AOK	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	e	enum:__anon19
+STAT_BUB	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	e	enum:__anon19
+STAT_HLT	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	e	enum:__anon19
+STAT_INS	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	e	enum:__anon19
+STAT_PIP	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	e	enum:__anon19
+STRING_LENGTH	misc/outgen.c	9;"	d	file:
+STRMAX	misc/yas.c	61;"	d	file:
+SWAP_SIZE	misc/isa.h	145;"	d
+SYM_LIM	misc/node.c	22;"	d	file:
+S_FORWARD	pipe/sim.h	/^typedef enum { S_WEDGED, S_STALL, S_FORWARD } sim_mode_t;$/;"	e	enum:__anon29
+S_STALL	pipe/sim.h	/^typedef enum { S_WEDGED, S_STALL, S_FORWARD } sim_mode_t;$/;"	e	enum:__anon29
+S_WEDGED	pipe/sim.h	/^typedef enum { S_WEDGED, S_STALL, S_FORWARD } sim_mode_t;$/;"	e	enum:__anon29
+Stack	pipe/gen-driver.pl	/^Stack:$/;"	l
+Stack1	ptest/ctest.pl	/^	Stack1:$/;"	l
+Stack2	ptest/ctest.pl	/^	Stack2:$/;"	l
+Stack3	ptest/ctest.pl	/^	Stack3:$/;"	l
+TFLAGS	ptest/Makefile	/^TFLAGS=$/;"	m
+TKARGS	pipe/psim.c	29;"	d	file:
+TKARGS	seq/ssim.c	25;"	d	file:
+TKINC	Makefile	/^TKINC=-isystem \/usr\/include\/tcl8.5$/;"	m
+TKINC	pipe/Makefile	/^TKINC=-isystem \/usr\/include\/tcl8.5$/;"	m
+TKINC	seq/Makefile	/^TKINC=-isystem \/usr\/include\/tcl8.5$/;"	m
+TKLIBS	Makefile	/^TKLIBS=-L\/usr\/lib -ltk8.5 -ltcl8.5$/;"	m
+TKLIBS	pipe/Makefile	/^TKLIBS=-L\/usr\/lib -ltk8.5 -ltcl8.5$/;"	m
+TKLIBS	seq/Makefile	/^TKLIBS=-L\/usr\/lib -ltk8.5 -ltcl8.5$/;"	m
+TOK_ERR	misc/yas.c	/^typedef enum{ TOK_IDENT, TOK_NUM, TOK_REG, TOK_INSTR, TOK_PUNCT, TOK_ERR }$/;"	e	enum:__anon4	file:
+TOK_IDENT	misc/yas.c	/^typedef enum{ TOK_IDENT, TOK_NUM, TOK_REG, TOK_INSTR, TOK_PUNCT, TOK_ERR }$/;"	e	enum:__anon4	file:
+TOK_INSTR	misc/yas.c	/^typedef enum{ TOK_IDENT, TOK_NUM, TOK_REG, TOK_INSTR, TOK_PUNCT, TOK_ERR }$/;"	e	enum:__anon4	file:
+TOK_NUM	misc/yas.c	/^typedef enum{ TOK_IDENT, TOK_NUM, TOK_REG, TOK_INSTR, TOK_PUNCT, TOK_ERR }$/;"	e	enum:__anon4	file:
+TOK_PER_LINE	misc/yas.c	39;"	d	file:
+TOK_PUNCT	misc/yas.c	/^typedef enum{ TOK_IDENT, TOK_NUM, TOK_REG, TOK_INSTR, TOK_PUNCT, TOK_ERR }$/;"	e	enum:__anon4	file:
+TOK_REG	misc/yas.c	/^typedef enum{ TOK_IDENT, TOK_NUM, TOK_REG, TOK_INSTR, TOK_PUNCT, TOK_ERR }$/;"	e	enum:__anon4	file:
+TRUE	misc/isa.h	/^typedef enum { FALSE, TRUE } bool_t;$/;"	e	enum:__anon13
+Tcl_AppInit	pipe/psim.c	/^int Tcl_AppInit(Tcl_Interp *interp)$/;"	f
+Tcl_AppInit	seq/ssim.c	/^int Tcl_AppInit(Tcl_Interp *interp)$/;"	f
+UINT16_MAX	misc/lex.yy.c	80;"	d	file:
+UINT16_MAX	misc/yas-grammar.c	80;"	d	file:
+UINT32_MAX	misc/lex.yy.c	83;"	d	file:
+UINT32_MAX	misc/yas-grammar.c	83;"	d	file:
+UINT8_MAX	misc/lex.yy.c	77;"	d	file:
+UINT8_MAX	misc/yas-grammar.c	77;"	d	file:
+VALID_ADDR	misc/isa.h	161;"	d
+VALID_POS	misc/isa.h	153;"	d
+VAR	misc/hcl.tab.c	/^    VAR = 264,$/;"	e	enum:yytokentype	file:
+VAR	misc/hcl.tab.h	/^    VAR = 264,$/;"	e	enum:yytokentype
+VERSION	pipe/Makefile	/^VERSION= full$/;"	m
+VERSION	seq/Makefile	/^VERSION=full$/;"	m
+WB_STAGE	pipe/sim.h	/^typedef enum { IF_STAGE, ID_STAGE, EX_STAGE, MEM_STAGE, WB_STAGE } stage_id_t;$/;"	e	enum:__anon30
+YACC	misc/Makefile	/^YACC=bison$/;"	m
+YAS	misc/Makefile	/^YAS=.\/yas$/;"	m
+YAS	pipe/Makefile	/^YAS = ..\/misc\/yas$/;"	m
+YAS	ptest/Makefile	/^YAS=$(ISADIR)\/yas$/;"	m
+YAS	seq/Makefile	/^YAS=..\/misc\/yas$/;"	m
+YAS	y86-code/Makefile	/^YAS = $(ISADIR)\/yas$/;"	m
+YIS	y86-code/Makefile	/^YIS = $(ISADIR)\/yis$/;"	m
+YOFILES	y86-code/Makefile	/^YOFILES = abs-asum-cmov.yo abs-asum-jmp.yo asum.yo asumr.yo asumi.yo asuml.yo cjr.yo j-cc.yo poptest.yo pushquestion.yo pushtest.yo prog1.yo prog2.yo prog3.yo prog4.yo prog5.yo prog6.yo prog7.yo prog8.yo prog9.yo prog10.yo ret-hazard.yo$/;"	m
+YYABORT	misc/hcl.tab.c	629;"	d	file:
+YYACCEPT	misc/hcl.tab.c	628;"	d	file:
+YYBACKUP	misc/hcl.tab.c	635;"	d	file:
+YYBISON	misc/hcl.tab.c	44;"	d	file:
+YYBISON_VERSION	misc/hcl.tab.c	47;"	d	file:
+YYCASE_	misc/hcl.tab.c	976;"	d	file:
+YYCASE_	misc/hcl.tab.c	986;"	d	file:
+YYCOPY	misc/hcl.tab.c	417;"	d	file:
+YYCOPY	misc/hcl.tab.c	420;"	d	file:
+YYCOPY_NEEDED	misc/hcl.tab.c	392;"	d	file:
+YYDEBUG	misc/hcl.tab.c	140;"	d	file:
+YYDEBUG	misc/hcl.tab.h	37;"	d
+YYDPRINTF	misc/hcl.tab.c	666;"	d	file:
+YYDPRINTF	misc/hcl.tab.c	781;"	d	file:
+YYEMPTY	misc/hcl.tab.c	625;"	d	file:
+YYEOF	misc/hcl.tab.c	626;"	d	file:
+YYERRCODE	misc/hcl.tab.c	654;"	d	file:
+YYERROR	misc/hcl.tab.c	630;"	d	file:
+YYERROR_VERBOSE	misc/hcl.tab.c	128;"	d	file:
+YYERROR_VERBOSE	misc/hcl.tab.c	129;"	d	file:
+YYERROR_VERBOSE	misc/hcl.tab.c	131;"	d	file:
+YYFINAL	misc/hcl.tab.c	433;"	d	file:
+YYFPRINTF	misc/hcl.tab.c	663;"	d	file:
+YYFREE	misc/hcl.tab.c	363;"	d	file:
+YYINITDEPTH	misc/hcl.tab.c	790;"	d	file:
+YYLAST	misc/hcl.tab.c	435;"	d	file:
+YYMALLOC	misc/hcl.tab.c	357;"	d	file:
+YYMAXDEPTH	misc/hcl.tab.c	801;"	d	file:
+YYMAXUTOK	misc/hcl.tab.c	449;"	d	file:
+YYNNTS	misc/hcl.tab.c	440;"	d	file:
+YYNRULES	misc/hcl.tab.c	442;"	d	file:
+YYNSTATES	misc/hcl.tab.c	444;"	d	file:
+YYNTOKENS	misc/hcl.tab.c	438;"	d	file:
+YYPACT_NINF	misc/hcl.tab.c	523;"	d	file:
+YYPOPSTACK	misc/hcl.tab.c	1101;"	d	file:
+YYPULL	misc/hcl.tab.c	59;"	d	file:
+YYPURE	misc/hcl.tab.c	53;"	d	file:
+YYPUSH	misc/hcl.tab.c	56;"	d	file:
+YYRECOVERING	misc/hcl.tab.c	633;"	d	file:
+YYSIZE_MAXIMUM	misc/hcl.tab.c	236;"	d	file:
+YYSIZE_T	misc/hcl.tab.c	225;"	d	file:
+YYSIZE_T	misc/hcl.tab.c	227;"	d	file:
+YYSIZE_T	misc/hcl.tab.c	230;"	d	file:
+YYSIZE_T	misc/hcl.tab.c	232;"	d	file:
+YYSKELETON_NAME	misc/hcl.tab.c	50;"	d	file:
+YYSTACK_ALLOC	misc/hcl.tab.c	311;"	d	file:
+YYSTACK_ALLOC	misc/hcl.tab.c	315;"	d	file:
+YYSTACK_ALLOC	misc/hcl.tab.c	320;"	d	file:
+YYSTACK_ALLOC	misc/hcl.tab.c	343;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	misc/hcl.tab.c	340;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	misc/hcl.tab.c	346;"	d	file:
+YYSTACK_BYTES	misc/hcl.tab.c	388;"	d	file:
+YYSTACK_FREE	misc/hcl.tab.c	334;"	d	file:
+YYSTACK_FREE	misc/hcl.tab.c	344;"	d	file:
+YYSTACK_GAP_MAXIMUM	misc/hcl.tab.c	384;"	d	file:
+YYSTACK_RELOCATE	misc/hcl.tab.c	399;"	d	file:
+YYSTATE	misc/lex.yy.c	132;"	d	file:
+YYSTATE	misc/yas-grammar.c	132;"	d	file:
+YYSTYPE	misc/hcl.tab.c	/^typedef int YYSTYPE;$/;"	t	file:
+YYSTYPE	misc/hcl.tab.c	71;"	d	file:
+YYSTYPE	misc/hcl.tab.h	/^typedef int YYSTYPE;$/;"	t
+YYSTYPE	misc/lex.yy.c	502;"	d	file:
+YYSTYPE_IS_DECLARED	misc/hcl.tab.c	181;"	d	file:
+YYSTYPE_IS_DECLARED	misc/hcl.tab.h	78;"	d
+YYSTYPE_IS_TRIVIAL	misc/hcl.tab.c	180;"	d	file:
+YYSTYPE_IS_TRIVIAL	misc/hcl.tab.h	77;"	d
+YYTABLES_NAME	misc/lex.yy.c	1944;"	d	file:
+YYTABLES_NAME	misc/yas-grammar.c	2098;"	d	file:
+YYTABLE_NINF	misc/hcl.tab.c	528;"	d	file:
+YYTERROR	misc/hcl.tab.c	653;"	d	file:
+YYTOKENTYPE	misc/hcl.tab.c	148;"	d	file:
+YYTOKENTYPE	misc/hcl.tab.h	45;"	d
+YYTRANSLATE	misc/hcl.tab.c	451;"	d	file:
+YYUNDEFTOK	misc/hcl.tab.c	448;"	d	file:
+YYUSE	misc/hcl.tab.c	279;"	d	file:
+YYUSE	misc/hcl.tab.c	281;"	d	file:
+YY_	misc/hcl.tab.c	242;"	d	file:
+YY_	misc/hcl.tab.c	246;"	d	file:
+YY_ATTRIBUTE	misc/hcl.tab.c	254;"	d	file:
+YY_ATTRIBUTE	misc/hcl.tab.c	256;"	d	file:
+YY_ATTRIBUTE_PURE	misc/hcl.tab.c	261;"	d	file:
+YY_ATTRIBUTE_UNUSED	misc/hcl.tab.c	265;"	d	file:
+YY_AT_BOL	misc/lex.yy.c	339;"	d	file:
+YY_AT_BOL	misc/yas-grammar.c	339;"	d	file:
+YY_BREAK	misc/lex.yy.c	681;"	d	file:
+YY_BREAK	misc/yas-grammar.c	924;"	d	file:
+YY_BUFFER_EOF_PENDING	misc/lex.yy.c	255;"	d	file:
+YY_BUFFER_EOF_PENDING	misc/yas-grammar.c	255;"	d	file:
+YY_BUFFER_NEW	misc/lex.yy.c	243;"	d	file:
+YY_BUFFER_NEW	misc/yas-grammar.c	243;"	d	file:
+YY_BUFFER_NORMAL	misc/lex.yy.c	244;"	d	file:
+YY_BUFFER_NORMAL	misc/yas-grammar.c	244;"	d	file:
+YY_BUFFER_STATE	misc/lex.yy.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUFFER_STATE	misc/yas-grammar.c	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	misc/lex.yy.c	149;"	d	file:
+YY_BUF_SIZE	misc/lex.yy.c	151;"	d	file:
+YY_BUF_SIZE	misc/yas-grammar.c	149;"	d	file:
+YY_BUF_SIZE	misc/yas-grammar.c	151;"	d	file:
+YY_CHAR	misc/lex.yy.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CHAR	misc/yas-grammar.c	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	misc/lex.yy.c	271;"	d	file:
+YY_CURRENT_BUFFER	misc/yas-grammar.c	271;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	misc/lex.yy.c	278;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	misc/yas-grammar.c	278;"	d	file:
+YY_DECL	misc/lex.yy.c	669;"	d	file:
+YY_DECL	misc/yas-grammar.c	912;"	d	file:
+YY_DECL_IS_OURS	misc/lex.yy.c	665;"	d	file:
+YY_DECL_IS_OURS	misc/yas-grammar.c	908;"	d	file:
+YY_DO_BEFORE_ACTION	misc/lex.yy.c	364;"	d	file:
+YY_DO_BEFORE_ACTION	misc/yas-grammar.c	364;"	d	file:
+YY_END_OF_BUFFER	misc/lex.yy.c	372;"	d	file:
+YY_END_OF_BUFFER	misc/yas-grammar.c	372;"	d	file:
+YY_END_OF_BUFFER_CHAR	misc/lex.yy.c	140;"	d	file:
+YY_END_OF_BUFFER_CHAR	misc/yas-grammar.c	140;"	d	file:
+YY_EXIT_FAILURE	misc/lex.yy.c	1742;"	d	file:
+YY_EXIT_FAILURE	misc/yas-grammar.c	1888;"	d	file:
+YY_EXTRA_TYPE	misc/lex.yy.c	521;"	d	file:
+YY_EXTRA_TYPE	misc/yas-grammar.c	764;"	d	file:
+YY_FATAL_ERROR	misc/lex.yy.c	656;"	d	file:
+YY_FATAL_ERROR	misc/yas-grammar.c	899;"	d	file:
+YY_FLEX_MAJOR_VERSION	misc/lex.yy.c	9;"	d	file:
+YY_FLEX_MAJOR_VERSION	misc/yas-grammar.c	9;"	d	file:
+YY_FLEX_MINOR_VERSION	misc/lex.yy.c	10;"	d	file:
+YY_FLEX_MINOR_VERSION	misc/yas-grammar.c	10;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	misc/lex.yy.c	11;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	misc/yas-grammar.c	11;"	d	file:
+YY_FLUSH_BUFFER	misc/lex.yy.c	307;"	d	file:
+YY_FLUSH_BUFFER	misc/yas-grammar.c	307;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	misc/hcl.tab.c	286;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	misc/hcl.tab.c	296;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	misc/hcl.tab.c	290;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	misc/hcl.tab.c	297;"	d	file:
+YY_INITIAL_VALUE	misc/hcl.tab.c	293;"	d	file:
+YY_INITIAL_VALUE	misc/hcl.tab.c	300;"	d	file:
+YY_INPUT	misc/lex.yy.c	609;"	d	file:
+YY_INPUT	misc/yas-grammar.c	852;"	d	file:
+YY_INT_ALIGNED	misc/lex.yy.c	4;"	d	file:
+YY_INT_ALIGNED	misc/yas-grammar.c	4;"	d	file:
+YY_LESS_LINENO	misc/lex.yy.c	172;"	d	file:
+YY_LESS_LINENO	misc/yas-grammar.c	172;"	d	file:
+YY_LOCATION_PRINT	misc/hcl.tab.c	674;"	d	file:
+YY_MORE_ADJ	misc/lex.yy.c	495;"	d	file:
+YY_MORE_ADJ	misc/yas-grammar.c	741;"	d	file:
+YY_NEW_FILE	misc/lex.yy.c	138;"	d	file:
+YY_NEW_FILE	misc/yas-grammar.c	138;"	d	file:
+YY_NULL	misc/lex.yy.c	112;"	d	file:
+YY_NULL	misc/yas-grammar.c	112;"	d	file:
+YY_NULLPTR	misc/hcl.tab.c	120;"	d	file:
+YY_NULLPTR	misc/hcl.tab.c	122;"	d	file:
+YY_NUM_RULES	misc/lex.yy.c	371;"	d	file:
+YY_NUM_RULES	misc/yas-grammar.c	371;"	d	file:
+YY_READ_BUF_SIZE	misc/lex.yy.c	591;"	d	file:
+YY_READ_BUF_SIZE	misc/lex.yy.c	593;"	d	file:
+YY_READ_BUF_SIZE	misc/yas-grammar.c	834;"	d	file:
+YY_READ_BUF_SIZE	misc/yas-grammar.c	836;"	d	file:
+YY_REDUCE_PRINT	misc/hcl.tab.c	771;"	d	file:
+YY_REDUCE_PRINT	misc/hcl.tab.c	784;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	misc/lex.yy.c	496;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	misc/yas-grammar.c	742;"	d	file:
+YY_RULE_SETUP	misc/lex.yy.c	684;"	d	file:
+YY_RULE_SETUP	misc/yas-grammar.c	927;"	d	file:
+YY_SC_TO_UI	misc/lex.yy.c	119;"	d	file:
+YY_SC_TO_UI	misc/yas-grammar.c	119;"	d	file:
+YY_STACK_PRINT	misc/hcl.tab.c	740;"	d	file:
+YY_STACK_PRINT	misc/hcl.tab.c	783;"	d	file:
+YY_START	misc/lex.yy.c	131;"	d	file:
+YY_START	misc/yas-grammar.c	131;"	d	file:
+YY_START_STACK_INCR	misc/lex.yy.c	651;"	d	file:
+YY_START_STACK_INCR	misc/yas-grammar.c	894;"	d	file:
+YY_STATE_BUF_SIZE	misc/lex.yy.c	157;"	d	file:
+YY_STATE_BUF_SIZE	misc/yas-grammar.c	157;"	d	file:
+YY_STATE_EOF	misc/lex.yy.c	135;"	d	file:
+YY_STATE_EOF	misc/yas-grammar.c	135;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	misc/lex.yy.c	196;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	misc/yas-grammar.c	196;"	d	file:
+YY_SYMBOL_PRINT	misc/hcl.tab.c	678;"	d	file:
+YY_SYMBOL_PRINT	misc/hcl.tab.c	782;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	misc/lex.yy.c	160;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	misc/yas-grammar.c	160;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	misc/lex.yy.c	191;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	misc/yas-grammar.c	191;"	d	file:
+YY_USER_ACTION	misc/lex.yy.c	676;"	d	file:
+YY_USER_ACTION	misc/yas-grammar.c	919;"	d	file:
+YY_USE_CONST	misc/lex.yy.c	100;"	d	file:
+YY_USE_CONST	misc/lex.yy.c	93;"	d	file:
+YY_USE_CONST	misc/yas-grammar.c	100;"	d	file:
+YY_USE_CONST	misc/yas-grammar.c	93;"	d	file:
+YY_YY_HCL_TAB_H_INCLUDED	misc/hcl.tab.c	137;"	d	file:
+YY_YY_HCL_TAB_H_INCLUDED	misc/hcl.tab.h	34;"	d
+_Noreturn	misc/hcl.tab.c	271;"	d	file:
+_Noreturn	misc/hcl.tab.c	273;"	d	file:
+__STDC_LIMIT_MACROS	misc/lex.yy.c	39;"	d	file:
+__STDC_LIMIT_MACROS	misc/yas-grammar.c	39;"	d	file:
+addAppCommands	pipe/psim.c	/^void addAppCommands(Tcl_Interp *interp)$/;"	f
+addAppCommands	seq/ssim.c	/^void addAppCommands(Tcl_Interp *interp)$/;"	f
+addCodeLine	pipe/pipe.tcl	/^proc addCodeLine {line addr op text} {$/;"	p
+addCodeLine	seq/seq+.tcl	/^proc addCodeLine {line addr op text} {$/;"	p
+addCodeLine	seq/seq.tcl	/^proc addCodeLine {line addr op text} {$/;"	p
+addDisp	pipe/pipe.tcl	/^proc addDisp {win width name} {$/;"	p
+addDisp	seq/seq+.tcl	/^proc addDisp {win width name} {$/;"	p
+addDisp	seq/seq.tcl	/^proc addDisp {win width name} {$/;"	p
+addFill	pipe/pipe.tcl	/^proc addFill { win w } {$/;"	p
+addLabel	pipe/pipe.tcl	/^proc addLabel { win nstage cstage } {$/;"	p
+add_arg	misc/node.c	/^void add_arg(node_ptr var, node_ptr qstring, int isbool)$/;"	f
+add_ident	misc/yas.c	/^void add_ident(char *s)$/;"	f
+add_instr	misc/yas.c	/^void add_instr(char *s)$/;"	f
+add_num	misc/yas.c	/^void add_num(int i)$/;"	f
+add_punct	misc/yas.c	/^void add_punct(char c)$/;"	f
+add_reg	misc/yas.c	/^void add_reg(char *s)$/;"	f
+add_symbol	misc/node.c	/^static void add_symbol(node_ptr name, node_ptr val)$/;"	f	file:
+add_symbol	misc/yas.c	/^void add_symbol(char *name, int p)$/;"	f
+add_token	misc/yas.c	/^void add_token(token_t type, char *s, int i, char c)$/;"	f
+alloca	misc/hcl.tab.c	318;"	d	file:
+alu_t	misc/isa.h	/^typedef enum { A_ADD, A_SUB, A_AND, A_XOR, A_NONE } alu_t;$/;"	t	typeref:enum:__anon10
+alu_table	misc/isa.c	/^} alu_table[A_NONE+1] = $/;"	v	typeref:struct:__anon2
+amux	pipe/psim.c	/^mux_source_t amux = MUX_NONE;$/;"	v
+annotate	misc/node.c	/^int annotate = 0;$/;"	v
+arg1	misc/isa.h	/^  arg_t arg1;$/;"	m	struct:__anon14
+arg1	misc/node.h	/^    struct NODE *arg1;$/;"	m	struct:NODE	typeref:struct:NODE::NODE
+arg1hi	misc/isa.h	/^  int arg1hi;  \/* 0\/1 for register argument, # bytes for allocation *\/$/;"	m	struct:__anon14
+arg1pos	misc/isa.h	/^  int arg1pos;$/;"	m	struct:__anon14
+arg2	misc/isa.h	/^  arg_t arg2;$/;"	m	struct:__anon14
+arg2	misc/node.h	/^    struct NODE *arg2;$/;"	m	struct:NODE	typeref:struct:NODE::NODE
+arg2hi	misc/isa.h	/^  int arg2hi;  \/* 0\/1 *\/$/;"	m	struct:__anon14
+arg2pos	misc/isa.h	/^  int arg2pos;$/;"	m	struct:__anon14
+arg_cnt	misc/node.c	/^int arg_cnt = 0;$/;"	v
+arg_names	misc/node.c	/^char *arg_names[SYM_LIM];$/;"	v
+arg_t	misc/isa.h	/^typedef enum { R_ARG, M_ARG, I_ARG, NO_ARG } arg_t;$/;"	t	typeref:enum:__anon8
+atoh	misc/yas-grammar.c	/^unsigned int atoh(const char *s)$/;"	f
+bad_instr	misc/isa.c	/^instr_ptr bad_instr()$/;"	f
+bcond	seq/ssim.c	/^bool_t bcond = FALSE;$/;"	v
+bcount	misc/yas.c	/^int bcount = 0;   \/* Length of current instruction *\/$/;"	v
+block_factor	misc/yas.c	/^int block_factor = 0;$/;"	v
+bmux	pipe/psim.c	/^mux_source_t bmux = MUX_NONE;$/;"	v
+bool_t	misc/isa.h	/^typedef enum { FALSE, TRUE } bool_t;$/;"	t	typeref:enum:__anon13
+bubble_ex_mem	pipe/psim.c	/^ex_mem_ele bubble_ex_mem = { I_NOP, 0, FALSE, 0, 0,$/;"	v
+bubble_id_ex	pipe/psim.c	/^id_ex_ele bubble_id_ex = { I_NOP, 0, 0, 0, 0,$/;"	v
+bubble_if_id	pipe/psim.c	/^if_id_ele bubble_if_id = { I_NOP, 0, REG_NONE,REG_NONE,$/;"	v
+bubble_mem_wb	pipe/psim.c	/^mem_wb_ele bubble_mem_wb = { I_NOP, 0, 0, 0, REG_NONE, REG_NONE,$/;"	v
+bubble_pc	pipe/psim.c	/^pc_ele bubble_pc = {0,STAT_AOK};$/;"	v
+bubble_val	pipe/pipeline.h	/^    void *bubble_val;$/;"	m	struct:__anon27
+byte_t	misc/isa.h	/^typedef unsigned char byte_t;$/;"	t
+bytepos	misc/yas.c	/^int bytepos = 0; \/* Address of current instruction being processed *\/$/;"	v
+bytepos	misc/yas.c	/^int bytepos; \/* What byte address is the current instruction *\/$/;"	v
+bytes	misc/isa.h	/^  int bytes;$/;"	m	struct:__anon14
+cache_line	misc/isa.h	/^}cache_line, *cache_line_t;$/;"	t	typeref:struct:__anon15
+cache_line_t	misc/isa.h	/^}cache_line, *cache_line_t;$/;"	t	typeref:struct:__anon15
+cache_matrix	misc/isa.h	/^ cache_line cache_matrix[8][8];$/;"	m	struct:__anon16
+cache_set	misc/isa.h	/^}cache_set, *cache_set_t;$/;"	t	typeref:struct:__anon16
+cache_set_t	misc/isa.h	/^}cache_set, *cache_set_t;$/;"	t	typeref:struct:__anon16
+caselist	misc/hcl.y	/^caselist:$/;"	l
+cc	misc/isa.h	/^  cc_t cc;$/;"	m	struct:__anon20
+cc	pipe/psim.c	/^cc_t cc;$/;"	v
+cc	seq/ssim.c	/^cc_t cc = DEFAULT_CC;    \/* Condition code register *\/$/;"	v
+cc_in	pipe/psim.c	/^word_t cc_in = DEFAULT_CC;$/;"	v
+cc_in	seq/ssim.c	/^cc_t cc_in = DEFAULT_CC; \/* Input to condition code register *\/$/;"	v
+cc_name	misc/isa.c	/^char *cc_name(cc_t c)$/;"	f
+cc_names	misc/isa.c	/^char *cc_names[8] = {$/;"	v
+cc_t	misc/isa.h	/^typedef unsigned char cc_t;$/;"	t
+cdone	pipe/gen-driver.pl	/^cdone:$/;"	l
+check	pipe/gen-driver.pl	/^check:$/;"	l
+check_arg	misc/node.c	/^static int check_arg(node_ptr arg, int wantbool)$/;"	f	file:
+check_for_arg	misc/node.c	/^static void check_for_arg(char *name)$/;"	f	file:
+checkb	pipe/gen-driver.pl	/^checkb:$/;"	l
+checkm	pipe/gen-driver.pl	/^checkm:$/;"	l
+checkok	pipe/gen-driver.pl	/^checkok:$/;"	l
+checkpost	pipe/gen-driver.pl	/^checkpost:$/;"	l
+checkpre	pipe/gen-driver.pl	/^checkpre:$/;"	l
+clearCode	pipe/pipe.tcl	/^proc clearCode {} {$/;"	p
+clearCode	seq/seq+.tcl	/^proc clearCode {} {$/;"	p
+clearCode	seq/seq.tcl	/^proc clearCode {} {$/;"	p
+clearMem	pipe/pipe.tcl	/^proc clearMem {} {$/;"	p
+clearMem	seq/seq+.tcl	/^proc clearMem {} {$/;"	p
+clearMem	seq/seq.tcl	/^proc clearMem {} {$/;"	p
+clearReg	pipe/pipe.tcl	/^proc clearReg {} {$/;"	p
+clearReg	seq/seq+.tcl	/^proc clearReg {} {$/;"	p
+clearReg	seq/seq.tcl	/^proc clearReg {} {$/;"	p
+clear_mem	misc/isa.c	/^void clear_mem(mem_t m)$/;"	f
+clear_pipes	pipe/psim.c	/^void clear_pipes()$/;"	f
+cmdline	ptest/tester.pm	/^sub cmdline {$/;"	s
+code	misc/isa.h	/^  unsigned char code; \/* Byte code for instruction+op *\/$/;"	m	struct:__anon14
+code	misc/yas.c	/^char code[6];     \/* Byte encoding *\/$/;"	v
+codepos	misc/yas.c	/^int codepos = 0;  \/* Current position in byte encoding *\/$/;"	v
+compute_alu	misc/isa.c	/^word_t compute_alu(alu_t op, word_t argA, word_t argB)$/;"	f
+compute_cc	misc/isa.c	/^cc_t compute_cc(alu_t op, word_t argA, word_t argB)$/;"	f
+concat	misc/node.c	/^node_ptr concat(node_ptr n1, node_ptr n2)$/;"	f
+cond	seq/ssim.c	/^bool_t cond = FALSE;$/;"	v
+cond_holds	misc/isa.c	/^bool_t cond_holds(cc_t cc, cond_t bcond) {$/;"	f
+cond_t	misc/isa.h	/^typedef enum { C_YES, C_LE, C_L, C_E, C_NE, C_GE, C_G } cond_t;$/;"	t	typeref:enum:__anon12
+contents	misc/isa.h	/^  byte_t *contents;$/;"	m	struct:__anon18
+contents	misc/isa.h	/^  byte_t contents[8];$/;"	m	struct:__anon15
+copy_block	misc/examples.c	/^int copy_block(int *src, int *dest, int len)$/;"	f
+copy_mem	misc/isa.c	/^mem_t copy_mem(mem_t oldm)$/;"	f
+copy_reg	misc/isa.c	/^mem_t copy_reg(mem_t oldr)$/;"	f
+copy_state	misc/isa.c	/^state_ptr copy_state(state_ptr s) {$/;"	f
+count	pipe/pipeline.h	/^    int count;$/;"	m	struct:__anon27
+createCode	pipe/pipe.tcl	/^proc createCode {} {$/;"	p
+createCode	seq/seq+.tcl	/^proc createCode {} {$/;"	p
+createCode	seq/seq.tcl	/^proc createCode {} {$/;"	p
+createMem	pipe/pipe.tcl	/^proc createMem {nminAddr nmemCnt} {$/;"	p
+createMem	seq/seq+.tcl	/^proc createMem {nminAddr nmemCnt} {$/;"	p
+createMem	seq/seq.tcl	/^proc createMem {nminAddr nmemCnt} {$/;"	p
+create_memory_display	pipe/psim.c	/^void create_memory_display() {$/;"	f
+create_memory_display	seq/ssim.c	/^void create_memory_display() {$/;"	f
+cur_pos	misc/outgen.c	/^int cur_pos = 0;$/;"	v
+current	pipe/pipeline.h	/^    void *current;$/;"	m	struct:__anon27
+cval	misc/yas.c	/^    char cval;  \/* Character *\/$/;"	m	struct:__anon5	file:
+cycles	pipe/psim.c	/^int cycles = 0;$/;"	v
+d_regvala	pipe/psim.c	/^word_t d_regvala;$/;"	v
+d_regvalb	pipe/psim.c	/^word_t d_regvalb;$/;"	v
+dest	pipe/gen-driver.pl	/^dest:$/;"	l
+destE	seq/ssim.c	/^word_t destE = REG_NONE;$/;"	v
+destM	seq/ssim.c	/^word_t destM = REG_NONE;$/;"	v
+deste	pipe/stages.h	/^    byte_t deste; \/* Destination register for valE *\/$/;"	m	struct:__anon23
+deste	pipe/stages.h	/^    byte_t deste; \/* Destination register for valE *\/$/;"	m	struct:__anon24
+deste	pipe/stages.h	/^    byte_t deste; \/* Destination register for valE *\/$/;"	m	struct:__anon25
+destm	pipe/stages.h	/^    byte_t destm; \/* Destination register for valM *\/$/;"	m	struct:__anon23
+destm	pipe/stages.h	/^    byte_t destm; \/* Destination register for valM *\/$/;"	m	struct:__anon24
+destm	pipe/stages.h	/^    byte_t destm; \/* Destination register for valM *\/$/;"	m	struct:__anon25
+diff_mem	misc/isa.c	/^bool_t diff_mem(mem_t oldm, mem_t newm, FILE *outfile)$/;"	f
+diff_reg	misc/isa.c	/^bool_t diff_reg(mem_t oldr, mem_t newr, FILE *outfile)$/;"	f
+diff_state	misc/isa.c	/^bool_t diff_state(state_ptr olds, state_ptr news, FILE *outfile) {$/;"	f
+digits	pipe/psim.c	/^static char digits[16] =$/;"	v	file:
+digits	seq/ssim.c	/^static char digits[16] =$/;"	v	file:
+dirt	misc/isa.h	/^  bool_t dirt;$/;"	m	struct:__anon15
+dmem_error	pipe/psim.c	/^bool_t dmem_error;$/;"	v
+dmem_error	seq/ssim.c	/^bool_t dmem_error;$/;"	v
+do_check	pipe/psim.c	/^bool_t do_check = FALSE; \/* Test with ISA simulator? [TTY only] (-t) *\/$/;"	v
+do_check	seq/ssim.c	/^bool_t do_check = FALSE; \/* Test with YIS? [TTY only] (-t) *\/$/;"	v
+do_ex_stage	pipe/psim.c	/^void do_ex_stage()$/;"	f
+do_id_wb_stages	pipe/psim.c	/^void do_id_wb_stages()$/;"	f
+do_if_stage	pipe/psim.c	/^void do_if_stage()$/;"	f
+do_mem_stage	pipe/psim.c	/^void do_mem_stage()$/;"	f
+do_stall_check	pipe/psim.c	/^void do_stall_check()$/;"	f
+dst	pipe/ncopy.c	/^int src[8], dst[8];$/;"	v
+dump_memory	misc/isa.c	/^void dump_memory(FILE *outfile, mem_t m, word_t pos, int len)$/;"	f
+dump_reg	misc/isa.c	/^void dump_reg(FILE *outfile, mem_t r) {$/;"	f
+dumpfile	pipe/psim.c	/^FILE *dumpfile = NULL;$/;"	v
+dumpfile	seq/ssim.c	/^FILE *dumpfile = NULL;$/;"	v
+e_bcond	pipe/psim.c	/^bool_t e_bcond;$/;"	v
+e_vala	pipe/psim.c	/^word_t e_vala;$/;"	v
+e_valb	pipe/psim.c	/^word_t e_valb;$/;"	v
+errcnt	misc/hcl.tab.c	/^int errcnt = 0;$/;"	v
+errlen	misc/node.c	/^static int errlen = 0;$/;"	v	file:
+errmsg	misc/hcl.tab.c	/^static char errmsg[1024];$/;"	v	file:
+error_mode	misc/yas.c	/^int error_mode = 0; \/* Am I trying to finish off a line with an error? *\/$/;"	v
+ex_mem_curr	pipe/psim.c	/^ex_mem_ptr ex_mem_curr;$/;"	v
+ex_mem_ele	pipe/stages.h	/^} ex_mem_ele, *ex_mem_ptr;$/;"	t	typeref:struct:__anon24
+ex_mem_next	pipe/psim.c	/^ex_mem_ptr ex_mem_next;$/;"	v
+ex_mem_ptr	pipe/stages.h	/^} ex_mem_ele, *ex_mem_ptr;$/;"	t	typeref:struct:__anon24
+ex_mem_state	pipe/psim.c	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+ex_mem_state	pipe/sim.h	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+expr	misc/hcl.y	/^expr:$/;"	l
+expr_buf	misc/node.c	/^static char expr_buf[1024];$/;"	v	file:
+exprlist	misc/hcl.y	/^exprlist:$/;"	l
+f_cache_set_t	misc/isa.h	/^  cache_set_t f_cache_set_t;$/;"	m	struct:__anon17
+f_pc	pipe/psim.c	/^word_t f_pc;$/;"	v
+f_share_mem_t	misc/isa.h	/^  byte_t *f_share_mem_t;$/;"	m	struct:__anon17
+fail	misc/yas.c	/^void fail(char *message)$/;"	f
+fc	misc/isa.h	/^int fc;$/;"	v
+fd	misc/isa.h	/^  int fd;$/;"	m	struct:__anon17
+fd	misc/lock.c	/^int fd;$/;"	v
+fd_lock	misc/isa.c	/^int fd_lock;$/;"	v
+ff	misc/isa.h	/^int ff;$/;"	v
+file_mem	misc/isa.h	/^} file_mem, *file_mem_t;$/;"	t	typeref:struct:__anon17
+file_mem_t	misc/isa.h	/^} file_mem, *file_mem_t;$/;"	t	typeref:struct:__anon17
+findFile	pipe/pipe.tcl	/^proc findFile {tlist ext} {$/;"	p
+findFile	seq/seq+.tcl	/^proc findFile {tlist ext} {$/;"	p
+findFile	seq/seq.tcl	/^proc findFile {tlist ext} {$/;"	p
+findFlag	pipe/pipe.tcl	/^proc findFlag {flag} {$/;"	p
+findFlag	seq/seq+.tcl	/^proc findFlag {flag} {$/;"	p
+findFlag	seq/seq.tcl	/^proc findFlag {flag} {$/;"	p
+find_instr	misc/isa.c	/^instr_ptr find_instr(char *name)$/;"	f
+find_register	misc/isa.c	/^reg_id_t find_register(char *name)$/;"	f
+find_symbol	misc/node.c	/^static node_ptr find_symbol(char *name)$/;"	f	file:
+find_symbol	misc/yas.c	/^int find_symbol(char *name)$/;"	f
+finish_line	misc/yas.c	/^void finish_line()$/;"	f
+finish_node	misc/node.c	/^void finish_node(int check_ref)$/;"	f
+first_indent	misc/outgen.c	/^int first_indent = 4;$/;"	v
+flag	misc/isa.h	/^  bool_t flag;$/;"	m	struct:__anon15
+flagVal	pipe/pipe.tcl	/^proc flagVal {flag default} {$/;"	p
+flagVal	seq/seq+.tcl	/^proc flagVal {flag default} {$/;"	p
+flagVal	seq/seq.tcl	/^proc flagVal {flag default} {$/;"	p
+flex_int16_t	misc/lex.yy.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	misc/lex.yy.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int16_t	misc/yas-grammar.c	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	misc/yas-grammar.c	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	misc/lex.yy.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	misc/lex.yy.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int32_t	misc/yas-grammar.c	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	misc/yas-grammar.c	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	misc/lex.yy.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	misc/lex.yy.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_int8_t	misc/yas-grammar.c	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	misc/yas-grammar.c	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	misc/lex.yy.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	misc/lex.yy.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint16_t	misc/yas-grammar.c	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	misc/yas-grammar.c	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	misc/lex.yy.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	misc/lex.yy.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint32_t	misc/yas-grammar.c	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	misc/yas-grammar.c	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	misc/lex.yy.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	misc/lex.yy.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+flex_uint8_t	misc/yas-grammar.c	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	misc/yas-grammar.c	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+format_d	seq/ssim.c	/^static char *format_d()$/;"	f	file:
+format_e	seq/ssim.c	/^static char *format_e()$/;"	f	file:
+format_ex_mem	pipe/psim.c	/^static char *format_ex_mem(ex_mem_ptr state)$/;"	f	file:
+format_f	seq/ssim.c	/^static char *format_f()$/;"	f	file:
+format_id_ex	pipe/psim.c	/^static char *format_id_ex(id_ex_ptr state)$/;"	f	file:
+format_if_id	pipe/psim.c	/^static char *format_if_id(if_id_ptr state)$/;"	f	file:
+format_m	seq/ssim.c	/^static char *format_m()$/;"	f	file:
+format_mem_wb	pipe/psim.c	/^static char *format_mem_wb(mem_wb_ptr state)$/;"	f	file:
+format_npc	seq/ssim.c	/^static char *format_npc()$/;"	f	file:
+format_pc	pipe/psim.c	/^static char *format_pc(pc_ptr state)$/;"	f	file:
+format_pc	seq/ssim.c	/^static char *format_pc()$/;"	f	file:
+format_prev	seq/ssim.c	/^static char *format_prev()$/;"	f	file:
+free_mem	misc/isa.c	/^void free_mem(mem_t m)$/;"	f
+free_node	misc/node.c	/^static void free_node(node_ptr n)$/;"	f	file:
+free_reg	misc/isa.c	/^void free_reg(mem_t r)$/;"	f
+free_state	misc/isa.c	/^void free_state(state_ptr s)$/;"	f
+fun_t	misc/isa.h	/^typedef enum { F_NONE } fun_t;$/;"	t	typeref:enum:__anon11
+gen_D_bubble	pipe/pipe-full.c	/^int gen_D_bubble()$/;"	f
+gen_D_stall	pipe/pipe-full.c	/^int gen_D_stall()$/;"	f
+gen_E_bubble	pipe/pipe-full.c	/^int gen_E_bubble()$/;"	f
+gen_E_stall	pipe/pipe-full.c	/^int gen_E_stall()$/;"	f
+gen_F_bubble	pipe/pipe-full.c	/^int gen_F_bubble()$/;"	f
+gen_F_stall	pipe/pipe-full.c	/^int gen_F_stall()$/;"	f
+gen_M_bubble	pipe/pipe-full.c	/^int gen_M_bubble()$/;"	f
+gen_M_stall	pipe/pipe-full.c	/^int gen_M_stall()$/;"	f
+gen_Stat	pipe/pipe-full.c	/^int gen_Stat()$/;"	f
+gen_Stat	seq/seq-full.c	/^int gen_Stat()$/;"	f
+gen_W_bubble	pipe/pipe-full.c	/^int gen_W_bubble()$/;"	f
+gen_W_stall	pipe/pipe-full.c	/^int gen_W_stall()$/;"	f
+gen_aluA	pipe/pipe-full.c	/^int gen_aluA()$/;"	f
+gen_aluA	seq/seq-full.c	/^int gen_aluA()$/;"	f
+gen_aluB	pipe/pipe-full.c	/^int gen_aluB()$/;"	f
+gen_aluB	seq/seq-full.c	/^int gen_aluB()$/;"	f
+gen_alufun	pipe/pipe-full.c	/^int gen_alufun()$/;"	f
+gen_alufun	seq/seq-full.c	/^int gen_alufun()$/;"	f
+gen_d_dstE	pipe/pipe-full.c	/^int gen_d_dstE()$/;"	f
+gen_d_dstM	pipe/pipe-full.c	/^int gen_d_dstM()$/;"	f
+gen_d_srcA	pipe/pipe-full.c	/^int gen_d_srcA()$/;"	f
+gen_d_srcB	pipe/pipe-full.c	/^int gen_d_srcB()$/;"	f
+gen_d_valA	pipe/pipe-full.c	/^int gen_d_valA()$/;"	f
+gen_d_valB	pipe/pipe-full.c	/^int gen_d_valB()$/;"	f
+gen_dstE	seq/seq-full.c	/^int gen_dstE()$/;"	f
+gen_dstM	seq/seq-full.c	/^int gen_dstM()$/;"	f
+gen_e_dstE	pipe/pipe-full.c	/^int gen_e_dstE()$/;"	f
+gen_e_valA	pipe/pipe-full.c	/^int gen_e_valA()$/;"	f
+gen_expr	misc/node.c	/^static void gen_expr(node_ptr expr)$/;"	f	file:
+gen_f_icode	pipe/pipe-full.c	/^int gen_f_icode()$/;"	f
+gen_f_ifun	pipe/pipe-full.c	/^int gen_f_ifun()$/;"	f
+gen_f_pc	pipe/pipe-full.c	/^int gen_f_pc()$/;"	f
+gen_f_predPC	pipe/pipe-full.c	/^int gen_f_predPC()$/;"	f
+gen_f_stat	pipe/pipe-full.c	/^int gen_f_stat()$/;"	f
+gen_funct	misc/node.c	/^void gen_funct(node_ptr var, node_ptr expr, int isbool)$/;"	f
+gen_icode	seq/seq-full.c	/^int gen_icode()$/;"	f
+gen_ifun	seq/seq-full.c	/^int gen_ifun()$/;"	f
+gen_instr_valid	pipe/pipe-full.c	/^int gen_instr_valid()$/;"	f
+gen_instr_valid	seq/seq-full.c	/^int gen_instr_valid()$/;"	f
+gen_m_stat	pipe/pipe-full.c	/^int gen_m_stat()$/;"	f
+gen_mem_addr	pipe/pipe-full.c	/^int gen_mem_addr()$/;"	f
+gen_mem_addr	seq/seq-full.c	/^int gen_mem_addr()$/;"	f
+gen_mem_data	seq/seq-full.c	/^int gen_mem_data()$/;"	f
+gen_mem_read	pipe/pipe-full.c	/^int gen_mem_read()$/;"	f
+gen_mem_read	seq/seq-full.c	/^int gen_mem_read()$/;"	f
+gen_mem_write	pipe/pipe-full.c	/^int gen_mem_write()$/;"	f
+gen_mem_write	seq/seq-full.c	/^int gen_mem_write()$/;"	f
+gen_need_regids	pipe/pipe-full.c	/^int gen_need_regids()$/;"	f
+gen_need_regids	seq/seq-full.c	/^int gen_need_regids()$/;"	f
+gen_need_valC	pipe/pipe-full.c	/^int gen_need_valC()$/;"	f
+gen_need_valC	seq/seq-full.c	/^int gen_need_valC()$/;"	f
+gen_new_pc	seq/seq-full.c	/^int gen_new_pc()$/;"	f
+gen_pc	seq/seq-full.c	/^int gen_pc(){return 0;}$/;"	f
+gen_set_cc	pipe/pipe-full.c	/^int gen_set_cc()$/;"	f
+gen_set_cc	seq/seq-full.c	/^int gen_set_cc()$/;"	f
+gen_srcA	seq/seq-full.c	/^int gen_srcA()$/;"	f
+gen_srcB	seq/seq-full.c	/^int gen_srcB()$/;"	f
+gen_test	ptest/ctest.pl	/^sub gen_test $/;"	s
+gen_test	ptest/etest.pl	/^sub gen_test $/;"	s
+gen_test	ptest/htest.pl	/^sub gen_test $/;"	s
+gen_w_dstE	pipe/pipe-full.c	/^int gen_w_dstE()$/;"	f
+gen_w_dstM	pipe/pipe-full.c	/^int gen_w_dstM()$/;"	f
+gen_w_valE	pipe/pipe-full.c	/^int gen_w_valE()$/;"	f
+gen_w_valM	pipe/pipe-full.c	/^int gen_w_valM()$/;"	f
+get_byte_val	misc/isa.c	/^bool_t get_byte_val(mem_t m, word_t pos, byte_t *dest)$/;"	f
+get_byte_val_file	misc/isa.c	/^bool_t get_byte_val_file(mem_t m, word_t pos, byte_t *dest)$/;"	f
+get_mem	misc/yas.c	/^void get_mem(int codepos)$/;"	f
+get_num	misc/yas.c	/^void get_num(int codepos, int bytes, int offset)$/;"	f
+get_reg	misc/yas.c	/^void get_reg(int codepos, int hi)$/;"	f
+get_reg_val	misc/isa.c	/^word_t get_reg_val(mem_t r, reg_id_t id)$/;"	f
+get_word_val	misc/isa.c	/^bool_t get_word_val(mem_t m, word_t pos, word_t *dest)$/;"	f
+get_word_val_file	misc/isa.c	/^bool_t get_word_val_file(mem_t m,word_t pos, word_t * dest){$/;"	f
+gui_mode	misc/yas.c	/^int gui_mode = 0;$/;"	v
+gui_mode	misc/yis.c	/^int gui_mode = 0;$/;"	v
+gui_mode	pipe/psim.c	/^int gui_mode = FALSE;    \/* Run in GUI mode instead of TTY mode? (-g) *\/$/;"	v
+gui_mode	seq/ssim.c	/^int gui_mode = FALSE;    \/* Run in GUI mode instead of TTY mode? (-g) *\/$/;"	v
+hex2dig	misc/isa.c	/^int hex2dig(char c)$/;"	f
+hexstuff	misc/yas.c	/^static void hexstuff(char *dest, int value, int len)$/;"	f	file:
+hit_cache	misc/isa.c	/^cache_line_t hit_cache(cache_set_t cst ,word_t pos){$/;"	f
+hit_error	misc/yas.c	/^int hit_error = 0; \/* Have I hit any errors? *\/$/;"	v
+icode	pipe/stages.h	/^    byte_t icode;        \/* Instruction code *\/$/;"	m	struct:__anon23
+icode	pipe/stages.h	/^    byte_t icode;        \/* Instruction code *\/$/;"	m	struct:__anon24
+icode	pipe/stages.h	/^    byte_t icode;        \/* Instruction code *\/$/;"	m	struct:__anon25
+icode	pipe/stages.h	/^    byte_t icode;  \/* Single byte instruction code *\/$/;"	m	struct:__anon22
+icode	seq/ssim.c	/^byte_t icode = I_NOP;$/;"	v
+id	misc/isa.c	/^    int id;$/;"	m	struct:__anon1	file:
+id	misc/isa.c	/^    int id;$/;"	m	struct:__anon2	file:
+id	misc/isa.c	/^int id = -1;$/;"	v
+id_ex_curr	pipe/psim.c	/^id_ex_ptr id_ex_curr;$/;"	v
+id_ex_ele	pipe/stages.h	/^} id_ex_ele, *id_ex_ptr;$/;"	t	typeref:struct:__anon23
+id_ex_next	pipe/psim.c	/^id_ex_ptr id_ex_next;$/;"	v
+id_ex_ptr	pipe/stages.h	/^} id_ex_ele, *id_ex_ptr;$/;"	t	typeref:struct:__anon23
+id_ex_state	pipe/psim.c	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+id_ex_state	pipe/sim.h	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+if_id_curr	pipe/psim.c	/^if_id_ptr if_id_curr;$/;"	v
+if_id_ele	pipe/stages.h	/^} if_id_ele, *if_id_ptr;$/;"	t	typeref:struct:__anon22
+if_id_next	pipe/psim.c	/^if_id_ptr if_id_next;$/;"	v
+if_id_ptr	pipe/stages.h	/^} if_id_ele, *if_id_ptr;$/;"	t	typeref:struct:__anon22
+if_id_state	pipe/psim.c	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+if_id_state	pipe/sim.h	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+ifun	pipe/stages.h	/^    byte_t ifun;          \/* ALU\/JMP qualifier *\/$/;"	m	struct:__anon24
+ifun	pipe/stages.h	/^    byte_t ifun;         \/* ALU\/JMP qualifier *\/$/;"	m	struct:__anon25
+ifun	pipe/stages.h	/^    byte_t ifun;        \/* ALU\/JMP qualifier *\/$/;"	m	struct:__anon23
+ifun	pipe/stages.h	/^    byte_t ifun;    \/* ALU\/JMP qualifier *\/$/;"	m	struct:__anon22
+ifun	seq/ssim.c	/^word_t ifun = 0;$/;"	v
+imem_error	pipe/psim.c	/^bool_t imem_error;$/;"	v
+imem_error	seq/ssim.c	/^bool_t imem_error;$/;"	v
+imem_icode	pipe/psim.c	/^byte_t imem_icode;$/;"	v
+imem_icode	seq/ssim.c	/^byte_t imem_icode = I_NOP;$/;"	v
+imem_ifun	pipe/psim.c	/^byte_t imem_ifun;$/;"	v
+imem_ifun	seq/ssim.c	/^byte_t imem_ifun = F_NONE;$/;"	v
+iname	misc/isa.c	/^char *iname(int instr) {$/;"	f
+indent	misc/outgen.c	/^int indent = 0;$/;"	v
+init_cache_mem	misc/isa.c	/^cache_set_t init_cache_mem() {$/;"	f
+init_file_mem	misc/isa.c	/^file_mem_t init_file_mem() {$/;"	f
+init_lock	misc/isa.c	/^void init_lock() {$/;"	f
+init_lock	misc/lock.c	/^void init_lock() {$/;"	f
+init_mem	misc/isa.c	/^mem_t init_mem(int len, bool_t is_phy_mem)$/;"	f
+init_node	misc/node.c	/^void init_node(int argc, char **argv)$/;"	f
+init_reg	misc/isa.c	/^mem_t init_reg()$/;"	f
+initialized	pipe/psim.c	/^static int initialized = 0;$/;"	v	file:
+initialized	seq/ssim.c	/^static int initialized = 0;$/;"	v	file:
+input_line	misc/yas.c	/^char input_line[STRMAX];$/;"	v
+insert_code	misc/node.c	/^void insert_code(node_ptr qstring)$/;"	f
+instr	seq/ssim.c	/^byte_t instr = HPACK(I_NOP, F_NONE);$/;"	v
+instr_limit	pipe/psim.c	/^int instr_limit = 10000; \/* Instruction limit [TTY only] (-l) *\/$/;"	v
+instr_limit	seq/ssim.c	/^int instr_limit = 10000; \/* Instruction limit [TTY only] (-l) *\/$/;"	v
+instr_ptr	misc/isa.h	/^} instr_t, *instr_ptr;$/;"	t	typeref:struct:__anon14
+instr_t	misc/isa.h	/^} instr_t, *instr_ptr;$/;"	t	typeref:struct:__anon14
+instr_valid	pipe/psim.c	/^bool_t instr_valid;$/;"	v
+instr_valid	seq/ssim.c	/^bool_t instr_valid;$/;"	v
+instruction_set	misc/isa.c	/^instr_t instruction_set[] = $/;"	v
+instructions	pipe/psim.c	/^int instructions = 0;$/;"	v
+invalid_instr	misc/isa.c	/^instr_t invalid_instr =$/;"	v
+is_arg	misc/node.c	/^static int is_arg(char *name)$/;"	f	file:
+isbool	misc/node.h	/^    int isbool;  \/* Is this node a Boolean expression? *\/$/;"	m	struct:NODE
+itype_t	misc/isa.h	/^	       I_IADDL, I_LEAVE, I_POP2,I_RMCHANGE } itype_t;$/;"	t	typeref:enum:__anon9
+ival	misc/yas.c	/^    int ival;   \/* Integer   *\/$/;"	m	struct:__anon5	file:
+len	misc/isa.h	/^  int len;$/;"	m	struct:__anon18
+lineno	misc/hcl.tab.c	/^int lineno = 1;$/;"	v
+lineno	misc/yas.c	/^int lineno = 1; \/* Line number of input file *\/$/;"	v
+lineno	misc/yas.c	/^int lineno;  \/* What line number am I processing? *\/$/;"	v
+lineno	misc/yas.h	/^int lineno;$/;"	v
+list_ptr	misc/examples.c	/^} *list_ptr;$/;"	t	typeref:struct:ELE	file:
+loadCode	pipe/pipe.tcl	/^proc loadCode {file} {$/;"	p
+loadCode	seq/seq+.tcl	/^proc loadCode {file} {$/;"	p
+loadCode	seq/seq.tcl	/^proc loadCode {file} {$/;"	p
+load_mem	misc/isa.c	/^int load_mem(mem_t m, FILE *infile, int report_error)$/;"	f
+lock	misc/isa.c	/^int lock(mem_t m) {$/;"	f
+lock	misc/lock.c	/^int lock(mem_t m) {$/;"	f
+ltranspose	pipe/pipe.tcl	/^proc ltranspose {inlist} {$/;"	p
+ltranspose	seq/seq+.tcl	/^proc ltranspose {inlist} {$/;"	p
+ltranspose	seq/seq.tcl	/^proc ltranspose {inlist} {$/;"	p
+m	misc/isa.h	/^  mem_t m;$/;"	m	struct:__anon20
+m_file_mem_t	misc/isa.h	/^  file_mem_t m_file_mem_t;$/;"	m	struct:__anon18
+main	clearlock.c	/^int main(){$/;"	f
+main	misc/hcl.tab.c	/^int main(int argc, char **argv)$/;"	f
+main	misc/yas.c	/^int main(int argc, char *argv[])$/;"	f
+main	misc/yis.c	/^int main(int argc, char *argv[])$/;"	f
+main	pipe/gen-driver.pl	/^main:	irmovl Stack, %esp  	# Set up stack pointer$/;"	l
+main	pipe/ncopy.c	/^int main()$/;"	f
+main	pipe/pipe-full.c	/^int main(int argc, char *argv[]){return sim_main(argc,argv);}$/;"	f
+main	seq/seq-full.c	/^int main(int argc, char *argv[])$/;"	f
+make_and	misc/node.c	/^node_ptr make_and(node_ptr arg1, node_ptr arg2)$/;"	f
+make_case	misc/node.c	/^node_ptr make_case(node_ptr arg1, node_ptr arg2)$/;"	f
+make_comp	misc/node.c	/^node_ptr make_comp(node_ptr op, node_ptr arg1, node_ptr arg2)$/;"	f
+make_ele	misc/node.c	/^node_ptr make_ele(node_ptr arg1, node_ptr arg2)$/;"	f
+make_not	misc/node.c	/^node_ptr make_not(node_ptr arg)$/;"	f
+make_num	misc/node.c	/^node_ptr make_num(char *name)$/;"	f
+make_or	misc/node.c	/^node_ptr make_or(node_ptr arg1, node_ptr arg2)$/;"	f
+make_quote	misc/node.c	/^node_ptr make_quote(char *qstring)$/;"	f
+make_test	ptest/ctest.pl	/^sub make_test$/;"	s
+make_var	misc/node.c	/^node_ptr make_var(char *name)$/;"	f
+max_column	misc/outgen.c	/^int max_column = 80;$/;"	v
+maxaddr	misc/isa.h	/^  word_t maxaddr;$/;"	m	struct:__anon18
+mcloop	pipe/gen-driver.pl	/^mcloop:$/;"	l
+mem	pipe/psim.c	/^mem_t mem;$/;"	v
+mem	seq/ssim.c	/^mem_t mem;  \/* Instruction and data memory *\/$/;"	v
+memCnt	pipe/psim.c	/^int memCnt = 0;$/;"	v
+memCnt	seq/ssim.c	/^int memCnt = 0;$/;"	v
+mem_addr	pipe/psim.c	/^word_t mem_addr = 0;$/;"	v
+mem_addr	seq/ssim.c	/^word_t mem_addr = 0;$/;"	v
+mem_data	pipe/psim.c	/^word_t mem_data = 0;$/;"	v
+mem_data	seq/ssim.c	/^word_t mem_data = 0;$/;"	v
+mem_rec	misc/isa.h	/^} mem_rec, *mem_t;$/;"	t	typeref:struct:__anon18
+mem_t	misc/isa.h	/^} mem_rec, *mem_t;$/;"	t	typeref:struct:__anon18
+mem_wb_curr	pipe/psim.c	/^mem_wb_ptr mem_wb_curr;$/;"	v
+mem_wb_ele	pipe/stages.h	/^} mem_wb_ele, *mem_wb_ptr;$/;"	t	typeref:struct:__anon25
+mem_wb_next	pipe/psim.c	/^mem_wb_ptr mem_wb_next;$/;"	v
+mem_wb_ptr	pipe/stages.h	/^} mem_wb_ele, *mem_wb_ptr;$/;"	t	typeref:struct:__anon25
+mem_wb_state	pipe/psim.c	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+mem_wb_state	pipe/sim.h	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+mem_write	pipe/psim.c	/^bool_t mem_write = FALSE;$/;"	v
+mem_write	seq/ssim.c	/^bool_t mem_write = FALSE;$/;"	v
+minAddr	pipe/psim.c	/^int minAddr = 0;$/;"	v
+minAddr	seq/ssim.c	/^int minAddr = 0;$/;"	v
+mok	pipe/gen-driver.pl	/^mok:$/;"	l
+mux_source_t	pipe/sim.h	/^	       MUX_WB_M, MUX_WB_E } mux_source_t;$/;"	t	typeref:enum:__anon28
+name	misc/isa.c	/^    char *name;$/;"	m	struct:__anon1	file:
+name	misc/isa.h	/^  char *name;$/;"	m	struct:__anon14
+name	misc/yas.c	/^    char *name;$/;"	m	struct:__anon6	file:
+ncopy	pipe/ncopy.c	/^int ncopy(int *src, int *dst, int len)$/;"	f
+new_node	misc/node.c	/^static node_ptr new_node(node_type_t t, int isbool,$/;"	f	file:
+new_pipe	pipe/psim.c	/^pipe_ptr new_pipe(int count, void *bubble_val)$/;"	f
+new_state	misc/isa.c	/^state_ptr new_state(int memlen)$/;"	f
+next	misc/examples.c	/^    struct ELE *next;$/;"	m	struct:ELE	typeref:struct:ELE::ELE	file:
+next	misc/node.h	/^    struct NODE *next;$/;"	m	struct:NODE	typeref:struct:NODE::NODE
+next	pipe/pipeline.h	/^    void *next;$/;"	m	struct:__anon27
+node_names	misc/node.c	/^static char *node_names[] =$/;"	v	file:
+node_ptr	misc/node.h	/^} node_rec, *node_ptr;$/;"	t	typeref:struct:NODE
+node_rec	misc/node.h	/^} node_rec, *node_ptr;$/;"	t	typeref:struct:NODE
+node_type_t	misc/node.h	/^typedef enum { N_QUOTE, N_VAR, N_NUM, N_AND, N_OR, N_NOT, N_COMP, N_ELE, N_CASE } node_type_t;$/;"	t	typeref:enum:__anon3
+object_file	pipe/psim.c	/^FILE *object_file;       \/* Input file handle *\/$/;"	v
+object_file	seq/ssim.c	/^FILE *object_file;       \/* Input file handle *\/$/;"	v
+object_filename	pipe/psim.c	/^char *object_filename;   \/* The input object file name. *\/$/;"	v
+object_filename	seq/ssim.c	/^char *object_filename;   \/* The input object file name. *\/$/;"	v
+old_get_word_val	misc/isa.c	/^bool_t old_get_word_val(mem_t m, word_t pos, word_t *dest)$/;"	f
+old_set_word_val	misc/isa.c	/^bool_t old_set_word_val(mem_t m, word_t pos, word_t val)$/;"	f
+op	pipe/pipeline.h	/^    p_stat_t op;$/;"	m	struct:__anon27
+op_name	misc/isa.c	/^char op_name(alu_t op)$/;"	f
+other_indents	misc/outgen.c	/^int other_indents = 2;$/;"	v
+outfile	misc/hcl.tab.c	/^FILE *outfile;$/;"	v
+outfile	misc/outgen.c	/^FILE *outfile = NULL;$/;"	v
+outfile	misc/yas.c	/^FILE *outfile;$/;"	v
+outgen_downindent	misc/outgen.c	/^void outgen_downindent() {$/;"	f
+outgen_init	misc/outgen.c	/^void outgen_init(FILE *arg_outfile, int arg_max_column, int arg_first_indent, int arg_other_indents) {$/;"	f
+outgen_print	misc/outgen.c	/^void outgen_print(char *fmt, ...) {$/;"	f
+outgen_terminate	misc/outgen.c	/^void outgen_terminate() {$/;"	f
+outgen_upindent	misc/outgen.c	/^void outgen_upindent() {$/;"	f
+p_stat_t	pipe/pipeline.h	/^typedef enum { P_LOAD, P_STALL, P_BUBBLE, P_ERROR } p_stat_t;$/;"	t	typeref:enum:__anon26
+pass	misc/yas.c	/^int pass = 1; \/* Am I in pass 1 or 2? *\/$/;"	v
+pc	misc/isa.h	/^  word_t pc;$/;"	m	struct:__anon20
+pc	pipe/stages.h	/^    word_t pc;$/;"	m	struct:__anon21
+pc	seq/ssim.c	/^word_t pc = 0; \/* Program counter value *\/$/;"	v
+pc_curr	pipe/psim.c	/^pc_ptr pc_curr;$/;"	v
+pc_ele	pipe/stages.h	/^} pc_ele, *pc_ptr;$/;"	t	typeref:struct:__anon21
+pc_in	seq/ssim.c	/^word_t pc_in = 0;\/* Input to program counter *\/$/;"	v
+pc_next	pipe/psim.c	/^pc_ptr pc_next;$/;"	v
+pc_ptr	pipe/stages.h	/^} pc_ele, *pc_ptr;$/;"	t	typeref:struct:__anon21
+pc_state	pipe/psim.c	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+pc_state	pipe/sim.h	/^pipe_ptr pc_state, if_id_state, id_ex_state, ex_mem_state, mem_wb_state;$/;"	v
+pipe_cntl	pipe/psim.c	/^p_stat_t pipe_cntl(char *name, int stall, int bubble)$/;"	f
+pipe_count	pipe/psim.c	/^static int pipe_count = 0;$/;"	v	file:
+pipe_ele	pipe/pipeline.h	/^} pipe_ele, *pipe_ptr;$/;"	t	typeref:struct:__anon27
+pipe_ptr	pipe/pipeline.h	/^} pipe_ele, *pipe_ptr;$/;"	t	typeref:struct:__anon27
+pipes	pipe/psim.c	/^static pipe_ptr pipes[MAX_STAGE];$/;"	v	file:
+plusmode	seq/ssim.c	/^int plusmode = 0; $/;"	v
+pos	misc/yas.c	/^    int pos;$/;"	m	struct:__anon6	file:
+pos01	ptest/htest.pl	/^pos01:$/;"	l
+pos02	ptest/htest.pl	/^pos02:$/;"	l
+pos03	ptest/htest.pl	/^pos03:$/;"	l
+pos04	ptest/htest.pl	/^pos04:$/;"	l
+pos05	ptest/htest.pl	/^pos05:$/;"	l
+pos06	ptest/htest.pl	/^pos06:$/;"	l
+pos11	ptest/htest.pl	/^pos11:$/;"	l
+pos12	ptest/htest.pl	/^pos12:$/;"	l
+pos13	ptest/htest.pl	/^pos13:$/;"	l
+pos14	ptest/htest.pl	/^pos14:$/;"	l
+pos15	ptest/htest.pl	/^pos15:$/;"	l
+pos16	ptest/htest.pl	/^pos16:$/;"	l
+pos21	ptest/htest.pl	/^pos21:$/;"	l
+pos22	ptest/htest.pl	/^pos22:$/;"	l
+pos23	ptest/htest.pl	/^pos23:$/;"	l
+pos24	ptest/htest.pl	/^pos24:$/;"	l
+pos25	ptest/htest.pl	/^pos25:$/;"	l
+pos26	ptest/htest.pl	/^pos26:$/;"	l
+post_load_mem	pipe/psim.c	/^static mem_t post_load_mem;$/;"	v	file:
+post_load_mem	seq/ssim.c	/^static mem_t post_load_mem;$/;"	v	file:
+prev_bcond	seq/ssim.c	/^bool_t prev_bcond = FALSE;$/;"	v
+prev_bcond_in	seq/ssim.c	/^bool_t prev_bcond_in = FALSE;$/;"	v
+prev_icode	seq/ssim.c	/^byte_t prev_icode = I_NOP;$/;"	v
+prev_icode_in	seq/ssim.c	/^byte_t prev_icode_in = I_NOP;$/;"	v
+prev_ifun	seq/ssim.c	/^byte_t prev_ifun = 0;$/;"	v
+prev_ifun_in	seq/ssim.c	/^byte_t prev_ifun_in = 0;$/;"	v
+prev_valc	seq/ssim.c	/^word_t prev_valc = 0;$/;"	v
+prev_valc_in	seq/ssim.c	/^word_t prev_valc_in = 0;$/;"	v
+prev_valm	seq/ssim.c	/^word_t prev_valm = 0;$/;"	v
+prev_valm_in	seq/ssim.c	/^word_t prev_valm_in = 0;$/;"	v
+prev_valp	seq/ssim.c	/^word_t prev_valp = 0;$/;"	v
+prev_valp_in	seq/ssim.c	/^word_t prev_valp_in = 0;$/;"	v
+print_code	misc/yas.c	/^void print_code(FILE *out, int pos)$/;"	f
+print_instruction	misc/yas.c	/^void print_instruction(FILE *out)$/;"	f
+print_token	misc/outgen.c	/^static void print_token(char *string) {$/;"	f	file:
+print_token	misc/yas.c	/^void print_token(FILE *out, token_ptr t)$/;"	f
+r	misc/isa.h	/^  mem_t r;$/;"	m	struct:__anon20
+ra	pipe/stages.h	/^    byte_t ra; \/* Register ra ID *\/$/;"	m	struct:__anon22
+ra	seq/ssim.c	/^word_t ra = REG_NONE;$/;"	v
+rb	pipe/stages.h	/^    byte_t rb; \/* Register rb ID *\/$/;"	m	struct:__anon22
+rb	seq/ssim.c	/^word_t rb = REG_NONE;$/;"	v
+receive_message	misc/isa.c	/^bool_t receive_message(mem_t m){$/;"	f
+recharge_cache	misc/isa.c	/^bool_t recharge_cache(mem_t m, word_t pos, cache_line_t clt){$/;"	f
+ref	misc/node.h	/^    int ref;     \/* For var, how many times has it been referenced? *\/$/;"	m	struct:NODE
+reg	pipe/psim.c	/^mem_t reg;$/;"	v
+reg	seq/ssim.c	/^mem_t reg;               \/* Register file *\/$/;"	v
+reg_id_t	misc/isa.h	/^	       REG_ESP, REG_EBP, REG_ESI, REG_EDI, REG_NONE=0xF, REG_ERR } reg_id_t;$/;"	t	typeref:enum:__anon7
+reg_name	misc/isa.c	/^char *reg_name(reg_id_t id)$/;"	f
+reg_table	misc/isa.c	/^} reg_table[REG_ERR+1] = $/;"	v	typeref:struct:__anon1
+reg_valid	misc/isa.c	/^int reg_valid(reg_id_t id)$/;"	f
+report_line	pipe/psim.c	/^void report_line(int line_no, int addr, char *hex, char *text) {$/;"	f
+report_line	seq/ssim.c	/^void report_line(int line_no, int addr, char *hex, char *text) {$/;"	f
+report_pc	pipe/psim.c	/^void report_pc(unsigned fpc, unsigned char fpcv,$/;"	f
+report_pc	seq/ssim.c	/^void report_pc(unsigned pc)$/;"	f
+report_state	pipe/psim.c	/^void report_state(char *id, int current, char *txt)$/;"	f
+report_state	seq/ssim.c	/^void report_state(char *id, char *txt)$/;"	f
+rname	pipe/psim.c	/^char *rname[] = {"none", "ea", "eb", "me", "wm", "we"};$/;"	v
+rsum_list	misc/examples.c	/^int rsum_list(list_ptr ls)$/;"	f
+rtnpt	ptest/ctest.pl	/^rtnpt:  irmovl \\$5,%esi       # Return point$/;"	l
+run_sim_test	ptest/tester.pm	/^sub run_sim_test$/;"	s
+run_test	ptest/tester.pm	/^sub run_test$/;"	s
+run_tty_sim	pipe/psim.c	/^static void run_tty_sim() $/;"	f	file:
+run_tty_sim	seq/ssim.c	/^static void run_tty_sim() $/;"	f	file:
+run_vlog_test	ptest/tester.pm	/^sub run_vlog_test$/;"	s
+save_line	misc/yas.c	/^void save_line(char *s)$/;"	f
+send_message	misc/isa.c	/^bool_t send_message(mem_t m, int type,int address){$/;"	f
+setCC	pipe/pipe.tcl	/^proc setCC {zv cv ov} {$/;"	p
+setCC	seq/seq+.tcl	/^proc setCC {zv cv ov} {$/;"	p
+setCC	seq/seq.tcl	/^proc setCC {zv cv ov} {$/;"	p
+setDisp	pipe/pipe.tcl	/^proc setDisp {wins txts} {$/;"	p
+setDisp	seq/seq+.tcl	/^proc setDisp {wins txts} {$/;"	p
+setDisp	seq/seq.tcl	/^proc setDisp {wins txts} {$/;"	p
+setMem	pipe/pipe.tcl	/^proc setMem {Addr Val} {$/;"	p
+setMem	seq/seq+.tcl	/^proc setMem {Addr Val} {$/;"	p
+setMem	seq/seq.tcl	/^proc setMem {Addr Val} {$/;"	p
+setReg	pipe/pipe.tcl	/^proc setReg {id val highlight} {$/;"	p
+setReg	seq/seq+.tcl	/^proc setReg {id val highlight} {$/;"	p
+setReg	seq/seq.tcl	/^proc setReg {id val highlight} {$/;"	p
+setSpeed	pipe/pipe.tcl	/^proc setSpeed {rate} {$/;"	p
+setSpeed	seq/seq+.tcl	/^proc setSpeed {rate} {$/;"	p
+setSpeed	seq/seq.tcl	/^proc setSpeed {rate} {$/;"	p
+set_bool	misc/node.c	/^void set_bool(node_ptr varnode)$/;"	f
+set_byte_val	misc/isa.c	/^bool_t set_byte_val(mem_t m, word_t pos, byte_t val)$/;"	f
+set_byte_val_file	misc/isa.c	/^bool_t set_byte_val_file(mem_t m,word_t pos, byte_t val)$/;"	f
+set_memory	pipe/psim.c	/^void set_memory(int addr, int val) {$/;"	f
+set_memory	seq/ssim.c	/^void set_memory(int addr, int val) {$/;"	f
+set_reg_val	misc/isa.c	/^void set_reg_val(mem_t r, reg_id_t id, word_t val)$/;"	f
+set_word_val	misc/isa.c	/^bool_t set_word_val(mem_t m, word_t pos, word_t val)$/;"	f
+set_word_val_file	misc/isa.c	/^bool_t set_word_val_file(mem_t m,word_t pos, word_t val)$/;"	f
+short	misc/hcl.tab.c	196;"	d	file:
+showCPI	pipe/pipe.tcl	/^proc showCPI {cycles instructions cpi} {$/;"	p
+showSources	pipe/pipe.tcl	/^proc showSources { a b } {$/;"	p
+showStat	pipe/pipe.tcl	/^proc showStat {s} {$/;"	p
+show_cc	pipe/psim.c	/^void show_cc(cc_t cc)$/;"	f
+show_cc	seq/ssim.c	/^void show_cc(cc_t cc)$/;"	f
+show_cpi	pipe/psim.c	/^void show_cpi() {$/;"	f
+show_expr	misc/node.c	/^static char *show_expr(node_ptr expr)$/;"	f	file:
+show_expr_helper	misc/node.c	/^static void show_expr_helper(node_ptr expr)$/;"	f	file:
+show_node	misc/node.c	/^static void show_node(node_ptr node)$/;"	f	file:
+show_stat	pipe/psim.c	/^void show_stat(stat_t stat)$/;"	f
+signal_register_clear	pipe/psim.c	/^void signal_register_clear() {$/;"	f
+signal_register_clear	seq/ssim.c	/^void signal_register_clear() {$/;"	f
+signal_register_update	pipe/psim.c	/^void signal_register_update(reg_id_t r, word_t val) {$/;"	f
+signal_register_update	seq/ssim.c	/^void signal_register_update(reg_id_t r, word_t val) {$/;"	f
+signal_sources	pipe/psim.c	/^void signal_sources() {$/;"	f
+simGo	pipe/pipe.tcl	/^proc simGo {} {$/;"	p
+simGo	seq/seq+.tcl	/^proc simGo {} {$/;"	p
+simGo	seq/seq.tcl	/^proc simGo {} {$/;"	p
+simLabel	pipe/pipe.tcl	/^proc simLabel {addrs labs} {$/;"	p
+simLabel	seq/seq+.tcl	/^proc simLabel {addrs labs} {$/;"	p
+simLabel	seq/seq.tcl	/^proc simLabel {addrs labs} {$/;"	p
+simLoadCodeCmd	pipe/psim.c	/^int simLoadCodeCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simLoadCodeCmd	seq/ssim.c	/^int simLoadCodeCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simLoadDataCmd	pipe/psim.c	/^int simLoadDataCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simLoadDataCmd	seq/ssim.c	/^int simLoadDataCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simModeCmd	pipe/psim.c	/^int simModeCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simResetAll	pipe/pipe.tcl	/^proc simResetAll {} {$/;"	p
+simResetAll	seq/seq+.tcl	/^proc simResetAll {} {$/;"	p
+simResetAll	seq/seq.tcl	/^proc simResetAll {} {$/;"	p
+simResetCmd	pipe/psim.c	/^int simResetCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simResetCmd	seq/ssim.c	/^int simResetCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simRunCmd	pipe/psim.c	/^int simRunCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simRunCmd	seq/ssim.c	/^int simRunCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f
+simStep	pipe/pipe.tcl	/^proc simStep {} {$/;"	p
+simStep	seq/seq+.tcl	/^proc simStep {} {$/;"	p
+simStep	seq/seq.tcl	/^proc simStep {} {$/;"	p
+simStop	pipe/pipe.tcl	/^proc simStop  {} {$/;"	p
+simStop	seq/seq+.tcl	/^proc simStop  {} {$/;"	p
+simStop	seq/seq.tcl	/^proc simStop  {} {$/;"	p
+sim_bubble_stage	pipe/psim.c	/^void sim_bubble_stage(stage_id_t stage) $/;"	f
+sim_init	pipe/psim.c	/^void sim_init()$/;"	f
+sim_init	seq/ssim.c	/^void sim_init()$/;"	f
+sim_interp	pipe/psim.c	/^static Tcl_Interp *sim_interp = NULL;$/;"	v	file:
+sim_interp	seq/ssim.c	/^static Tcl_Interp *sim_interp = NULL;$/;"	v	file:
+sim_log	pipe/psim.c	/^void sim_log( const char *format, ... ) {$/;"	f
+sim_log	seq/ssim.c	/^void sim_log( const char *format, ... ) {$/;"	f
+sim_main	pipe/psim.c	/^int sim_main(int argc, char **argv)$/;"	f
+sim_main	seq/ssim.c	/^int sim_main(int argc, char **argv)$/;"	f
+sim_mode	pipe/psim.c	/^sim_mode_t sim_mode = S_FORWARD;$/;"	v
+sim_mode_t	pipe/sim.h	/^typedef enum { S_WEDGED, S_STALL, S_FORWARD } sim_mode_t;$/;"	t	typeref:enum:__anon29
+sim_report	pipe/psim.c	/^static void sim_report() $/;"	f	file:
+sim_report	seq/ssim.c	/^static void sim_report() {$/;"	f	file:
+sim_reset	pipe/psim.c	/^void sim_reset()$/;"	f
+sim_reset	seq/ssim.c	/^void sim_reset()$/;"	f
+sim_run	seq/ssim.c	/^int sim_run(int max_instr, byte_t *statusp, cc_t *ccp)$/;"	f
+sim_run_pipe	pipe/psim.c	/^int sim_run_pipe(int max_instr, int max_cycle, byte_t *statusp, cc_t *ccp)$/;"	f
+sim_set_dumpfile	pipe/psim.c	/^void sim_set_dumpfile(FILE *df)$/;"	f
+sim_set_dumpfile	seq/ssim.c	/^void sim_set_dumpfile(FILE *df)$/;"	f
+sim_stall_stage	pipe/psim.c	/^void sim_stall_stage(stage_id_t stage) {$/;"	f
+sim_step	seq/ssim.c	/^static byte_t sim_step()$/;"	f	file:
+sim_step_pipe	pipe/psim.c	/^static byte_t sim_step_pipe(int max_instr, int ccount)$/;"	f	file:
+simname	misc/node.c	/^char simname[MAXBUF] = "";$/;"	v
+simname	pipe/pipe-full.c	/^char simname[] = "Y86 Processor: pipe-full.hcl";$/;"	v
+simname	seq/seq-full.c	/^char simname[] = "Y86 Processor: seq-full.hcl";$/;"	v
+skip	ptest/jtest.pl	/^skip:$/;"	l
+src	pipe/gen-driver.pl	/^src:$/;"	l
+src	pipe/ncopy.c	/^int src[8], dst[8];$/;"	v
+srcA	seq/ssim.c	/^word_t srcA = REG_NONE;$/;"	v
+srcB	seq/ssim.c	/^word_t srcB = REG_NONE;$/;"	v
+srca	pipe/stages.h	/^    byte_t srca;  \/* Source Reg ID for valA *\/$/;"	m	struct:__anon23
+srca	pipe/stages.h	/^    byte_t srca;  \/* Source register for valA *\/$/;"	m	struct:__anon24
+srcb	pipe/stages.h	/^    byte_t srcb;  \/* Source Reg ID for valB *\/$/;"	m	struct:__anon23
+stack	ptest/jtest.pl	/^stack:$/;"	l
+stage_id_t	pipe/sim.h	/^typedef enum { IF_STAGE, ID_STAGE, EX_STAGE, MEM_STAGE, WB_STAGE } stage_id_t;$/;"	t	typeref:enum:__anon30
+stage_pc	pipe/stages.h	/^    word_t stage_pc;$/;"	m	struct:__anon22
+stage_pc	pipe/stages.h	/^    word_t stage_pc;$/;"	m	struct:__anon23
+stage_pc	pipe/stages.h	/^    word_t stage_pc;$/;"	m	struct:__anon24
+stage_pc	pipe/stages.h	/^    word_t stage_pc;$/;"	m	struct:__anon25
+start_line	misc/yas.c	/^void start_line()$/;"	f
+starting_up	pipe/psim.c	/^static int starting_up = 1;$/;"	v	file:
+stat_name	misc/isa.c	/^char *stat_name(stat_t e)$/;"	f
+stat_names	misc/isa.c	/^char *stat_names[] = { "BUB", "AOK", "HLT", "ADR", "INS", "PIP" };$/;"	v
+stat_t	misc/isa.h	/^ {STAT_BUB, STAT_AOK, STAT_HLT, STAT_ADR, STAT_INS, STAT_PIP } stat_t;$/;"	t	typeref:enum:__anon19
+state_ptr	misc/isa.h	/^} state_rec, *state_ptr;$/;"	t	typeref:struct:__anon20
+state_rec	misc/isa.h	/^} state_rec, *state_ptr;$/;"	t	typeref:struct:__anon20
+statement	misc/hcl.y	/^statement:$/;"	l
+statements	misc/hcl.y	/^statements: \/* empty *\/$/;"	l
+status	pipe/psim.c	/^stat_t status;$/;"	v
+status	pipe/stages.h	/^    stat_t status;$/;"	m	struct:__anon21
+status	pipe/stages.h	/^    stat_t status;$/;"	m	struct:__anon22
+status	pipe/stages.h	/^    stat_t status;$/;"	m	struct:__anon23
+status	pipe/stages.h	/^    stat_t status;$/;"	m	struct:__anon24
+status	pipe/stages.h	/^    stat_t status;$/;"	m	struct:__anon25
+status	seq/ssim.c	/^byte_t status = STAT_AOK;$/;"	v
+status_msg	pipe/psim.c	/^static char status_msg[128];$/;"	v	file:
+status_msg	seq/ssim.c	/^static char status_msg[128];$/;"	v	file:
+step_state	misc/isa.c	/^stat_t step_state(state_ptr s, FILE *error_file)$/;"	f
+strbuf	misc/yas.c	/^char strbuf[STRMAX];$/;"	v
+strpos	misc/yas.c	/^int strpos;$/;"	v
+sum_list	misc/examples.c	/^int sum_list(list_ptr ls)$/;"	f
+sval	misc/node.h	/^    char *sval;$/;"	m	struct:NODE
+sval	misc/yas.c	/^    char *sval; \/* String    *\/$/;"	m	struct:__anon5	file:
+sym_count	misc/node.c	/^static int sym_count = 0;$/;"	v	file:
+sym_tab	misc/node.c	/^static node_ptr sym_tab[2][SYM_LIM];$/;"	v	file:
+symbol	misc/isa.c	/^    char symbol;$/;"	m	struct:__anon2	file:
+symbol_cnt	misc/yas.c	/^int symbol_cnt = INIT_CNT;$/;"	v
+symbol_table	misc/yas.c	/^} symbol_table[STAB];$/;"	v	typeref:struct:__anon6
+tags	misc/isa.h	/^  int tags;$/;"	m	struct:__anon15
+takebranch	pipe/stages.h	/^    bool_t takebranch;  \/* Taken branch signal *\/$/;"	m	struct:__anon24
+target	ptest/jtest.pl	/^target:$/;"	l
+tclDummyMathPtr	pipe/psim.c	/^int *tclDummyMathPtr = (int *) matherr;$/;"	v
+tclDummyMathPtr	seq/ssim.c	/^int *tclDummyMathPtr = (int *) matherr;$/;"	v
+tcl_msg	pipe/psim.c	/^static char tcl_msg[256];$/;"	v	file:
+tcl_msg	seq/ssim.c	/^static char tcl_msg[256];$/;"	v	file:
+tcount	misc/yas.c	/^int tcount;  \/* How many tokens are there in this line? *\/$/;"	v
+test_stat	ptest/tester.pm	/^sub test_stat$/;"	s
+token_ptr	misc/yas.c	/^} token_rec, *token_ptr;$/;"	t	typeref:struct:__anon5	file:
+token_rec	misc/yas.c	/^} token_rec, *token_ptr;$/;"	t	typeref:struct:__anon5	file:
+token_t	misc/yas.c	/^  token_t;$/;"	t	typeref:enum:__anon4	file:
+token_type_names	misc/yas.c	/^char token_type_names[] = {'I', 'N', 'R', 'X', 'P'};$/;"	v
+tokens	misc/yas.c	/^token_rec tokens[TOK_PER_LINE];$/;"	v
+tpos	misc/yas.c	/^int tpos;    \/* What token am I currently processing *\/$/;"	v
+tty_report	pipe/psim.c	/^void tty_report(int cyc) {$/;"	f
+type	misc/node.h	/^    node_type_t type;$/;"	m	struct:NODE
+type	misc/yas.c	/^    token_t type; \/* Type    *\/$/;"	m	struct:__anon5	file:
+unlock	misc/isa.c	/^void unlock() {$/;"	f
+unlock	misc/lock.c	/^void unlock() {$/;"	f
+unput	misc/lex.yy.c	188;"	d	file:
+unput	misc/yas-grammar.c	188;"	d	file:
+updateStage	pipe/pipe.tcl	/^proc updateStage {name current txts} {$/;"	p
+updateStage	seq/seq+.tcl	/^proc updateStage {name txts} {$/;"	p
+updateStage	seq/seq.tcl	/^proc updateStage {name txts} {$/;"	p
+update_pipes	pipe/psim.c	/^void update_pipes()$/;"	f
+update_state	pipe/psim.c	/^static void update_state(bool_t update_mem, bool_t update_cc)$/;"	f	file:
+update_state	seq/ssim.c	/^static void update_state()$/;"	f	file:
+usage	misc/node.c	/^static void usage(char *name)$/;"	f	file:
+usage	misc/yas.c	/^static void usage(char *pname)$/;"	f	file:
+usage	misc/yis.c	/^void usage(char *pname)$/;"	f
+usage	pipe/benchmark.pl	/^sub usage {$/;"	s
+usage	pipe/correctness.pl	/^sub usage {$/;"	s
+usage	pipe/psim.c	/^static void usage(char *name)$/;"	f	file:
+usage	seq/ssim.c	/^static void usage(char *name)$/;"	f	file:
+val	misc/examples.c	/^    int val;$/;"	m	struct:ELE	file:
+vala	pipe/stages.h	/^    word_t vala;        \/* valA *\/$/;"	m	struct:__anon23
+vala	pipe/stages.h	/^    word_t vala;        \/* valA *\/$/;"	m	struct:__anon24
+vala	seq/ssim.c	/^word_t vala = 0;$/;"	v
+valb	pipe/stages.h	/^    word_t valb;        \/* valB *\/$/;"	m	struct:__anon23
+valb	seq/ssim.c	/^word_t valb = 0;$/;"	v
+valc	pipe/stages.h	/^    word_t valc;        \/* Immediate data *\/$/;"	m	struct:__anon23
+valc	pipe/stages.h	/^    word_t valc;  \/* Instruction word encoding immediate data *\/$/;"	m	struct:__anon22
+valc	seq/ssim.c	/^word_t valc = 0;$/;"	v
+vale	pipe/stages.h	/^    word_t vale;         \/* valE *\/$/;"	m	struct:__anon25
+vale	pipe/stages.h	/^    word_t vale;        \/* valE *\/$/;"	m	struct:__anon24
+vale	seq/ssim.c	/^word_t vale = 0;$/;"	v
+valm	pipe/stages.h	/^    word_t valm;         \/* valM *\/$/;"	m	struct:__anon25
+valm	seq/ssim.c	/^word_t valm = 0;$/;"	v
+valp	pipe/stages.h	/^    word_t valp; \/* Incremented program counter *\/$/;"	m	struct:__anon22
+valp	seq/ssim.c	/^word_t valp = 0;$/;"	v
+vcode	misc/yas.c	/^int vcode = 0;$/;"	v
+verbose	misc/yas.c	/^int verbose = 0;$/;"	v
+verbosity	pipe/psim.c	/^bool_t verbosity = 2;    \/* Verbosity level [TTY only] (-v) *\/ $/;"	v
+verbosity	seq/ssim.c	/^bool_t verbosity = 2;    \/* Verbosity level [TTY only] (-v) *\/ $/;"	v
+wb_destE	pipe/psim.c	/^word_t wb_destE = REG_NONE;$/;"	v
+wb_destM	pipe/psim.c	/^word_t wb_destM = REG_NONE;$/;"	v
+wb_valE	pipe/psim.c	/^word_t wb_valE = 0;$/;"	v
+wb_valM	pipe/psim.c	/^word_t wb_valM = 0;$/;"	v
+word_t	misc/isa.h	/^typedef int word_t;$/;"	t
+wprint	pipe/psim.c	/^void wprint(unsigned x, int bpd, int bpw, FILE *fp)$/;"	f
+write_back	misc/isa.c	/^bool_t write_back(mem_t m,byte_t *contents,word_t addr){$/;"	f
+wstring	pipe/psim.c	/^void wstring(unsigned x, int bpd, int bpw, char *str)$/;"	f
+wstring	seq/ssim.c	/^void wstring(unsigned x, int bpd, int bpw, char *str)$/;"	f
+yy_accept	misc/lex.yy.c	/^static yyconst flex_int16_t yy_accept[60] =$/;"	v	file:
+yy_accept	misc/yas-grammar.c	/^static yyconst flex_int16_t yy_accept[268] =$/;"	v	file:
+yy_acclist	misc/yas-grammar.c	/^static yyconst flex_int16_t yy_acclist[313] =$/;"	v	file:
+yy_at_bol	misc/lex.yy.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_at_bol	misc/yas-grammar.c	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	misc/lex.yy.c	/^static yyconst flex_int16_t yy_base[63] =$/;"	v	file:
+yy_base	misc/yas-grammar.c	/^static yyconst flex_int16_t yy_base[280] =$/;"	v	file:
+yy_bs_column	misc/lex.yy.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_column	misc/yas-grammar.c	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	misc/lex.yy.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	misc/yas-grammar.c	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	misc/lex.yy.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	misc/yas-grammar.c	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	misc/lex.yy.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	misc/yas-grammar.c	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	misc/lex.yy.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack	misc/yas-grammar.c	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	misc/lex.yy.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_max	misc/yas-grammar.c	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	misc/lex.yy.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	misc/yas-grammar.c	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	misc/lex.yy.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_state	misc/yas-grammar.c	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	misc/lex.yy.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_status	misc/yas-grammar.c	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	misc/lex.yy.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_c_buf_p	misc/yas-grammar.c	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	misc/lex.yy.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_ch_buf	misc/yas-grammar.c	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	misc/lex.yy.c	/^static yyconst flex_int16_t yy_chk[108] =$/;"	v	file:
+yy_chk	misc/yas-grammar.c	/^static yyconst flex_int16_t yy_chk[720] =$/;"	v	file:
+yy_create_buffer	misc/lex.yy.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_create_buffer	misc/yas-grammar.c	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	misc/lex.yy.c	/^static yyconst flex_int16_t yy_def[63] =$/;"	v	file:
+yy_def	misc/yas-grammar.c	/^static yyconst flex_int16_t yy_def[280] =$/;"	v	file:
+yy_delete_buffer	misc/lex.yy.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_delete_buffer	misc/yas-grammar.c	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	misc/lex.yy.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_did_buffer_switch_on_eof	misc/yas-grammar.c	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	misc/lex.yy.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_ec	misc/yas-grammar.c	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	misc/lex.yy.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fatal_error	misc/yas-grammar.c	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	misc/lex.yy.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_fill_buffer	misc/yas-grammar.c	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	misc/lex.yy.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_debug	misc/yas-grammar.c	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	misc/lex.yy.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strlen	misc/yas-grammar.c	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	misc/lex.yy.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flex_strncpy	misc/yas-grammar.c	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	misc/lex.yy.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_flush_buffer	misc/yas-grammar.c	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_full_match	misc/yas-grammar.c	/^static char *yy_full_match;$/;"	v	file:
+yy_get_next_buffer	misc/lex.yy.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_next_buffer	misc/yas-grammar.c	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	misc/lex.yy.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_get_previous_state	misc/yas-grammar.c	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	misc/lex.yy.c	/^static char yy_hold_char;$/;"	v	file:
+yy_hold_char	misc/yas-grammar.c	/^static char yy_hold_char;$/;"	v	file:
+yy_init	misc/lex.yy.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init	misc/yas-grammar.c	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	misc/lex.yy.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_buffer	misc/yas-grammar.c	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	misc/lex.yy.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_init_globals	misc/yas-grammar.c	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	misc/lex.yy.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_input_file	misc/yas-grammar.c	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	misc/lex.yy.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	misc/yas-grammar.c	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	misc/lex.yy.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	misc/yas-grammar.c	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	misc/lex.yy.c	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	misc/lex.yy.c	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	misc/lex.yy.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_load_buffer_state	misc/yas-grammar.c	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_lp	misc/yas-grammar.c	/^static int yy_lp;$/;"	v	file:
+yy_meta	misc/lex.yy.c	/^static yyconst flex_int32_t yy_meta[36] =$/;"	v	file:
+yy_meta	misc/yas-grammar.c	/^static yyconst flex_int32_t yy_meta[41] =$/;"	v	file:
+yy_n_chars	misc/lex.yy.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	misc/lex.yy.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_n_chars	misc/yas-grammar.c	/^	int yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	misc/yas-grammar.c	/^static int yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	misc/lex.yy.c	317;"	d	file:
+yy_new_buffer	misc/yas-grammar.c	317;"	d	file:
+yy_nxt	misc/lex.yy.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	misc/lex.yy.c	/^static yyconst flex_int16_t yy_nxt[108] =$/;"	v	file:
+yy_nxt	misc/yas-grammar.c	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	misc/yas-grammar.c	/^static yyconst flex_int16_t yy_nxt[720] =$/;"	v	file:
+yy_reduce_print	misc/hcl.tab.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_scan_buffer	misc/lex.yy.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_buffer	misc/yas-grammar.c	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	misc/lex.yy.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_bytes	misc/yas-grammar.c	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, int  _yybytes_len )$/;"	f
+yy_scan_string	misc/lex.yy.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_scan_string	misc/yas-grammar.c	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	misc/lex.yy.c	329;"	d	file:
+yy_set_bol	misc/yas-grammar.c	329;"	d	file:
+yy_set_interactive	misc/lex.yy.c	319;"	d	file:
+yy_set_interactive	misc/yas-grammar.c	319;"	d	file:
+yy_size_t	misc/lex.yy.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_size_t	misc/yas-grammar.c	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	misc/hcl.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	misc/lex.yy.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_start	misc/yas-grammar.c	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_buf	misc/yas-grammar.c	/^static yy_state_type *yy_state_buf=0, *yy_state_ptr=0;$/;"	v	file:
+yy_state_ptr	misc/yas-grammar.c	/^static yy_state_type *yy_state_buf=0, *yy_state_ptr=0;$/;"	v	file:
+yy_state_type	misc/lex.yy.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_state_type	misc/yas-grammar.c	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	misc/lex.yy.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_switch_to_buffer	misc/yas-grammar.c	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	misc/hcl.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	misc/hcl.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	misc/lex.yy.c	/^struct yy_trans_info$/;"	s	file:
+yy_trans_info	misc/yas-grammar.c	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	misc/lex.yy.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_try_NUL_trans	misc/yas-grammar.c	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	misc/lex.yy.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yy_verify	misc/yas-grammar.c	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	misc/hcl.tab.c	/^union yyalloc$/;"	u	file:
+yyalloc	misc/lex.yy.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	misc/yas-grammar.c	/^void *yyalloc (yy_size_t  size )$/;"	f
+yychar	misc/hcl.tab.c	/^int yychar;$/;"	v
+yycheck	misc/hcl.tab.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	misc/hcl.tab.c	624;"	d	file:
+yyconst	misc/lex.yy.c	106;"	d	file:
+yyconst	misc/lex.yy.c	108;"	d	file:
+yyconst	misc/yas-grammar.c	106;"	d	file:
+yyconst	misc/yas-grammar.c	108;"	d	file:
+yydebug	misc/hcl.tab.c	/^int yydebug;$/;"	v
+yydefact	misc/hcl.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	misc/hcl.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	misc/hcl.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyensure_buffer_stack	misc/lex.yy.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyensure_buffer_stack	misc/yas-grammar.c	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	misc/hcl.tab.c	623;"	d	file:
+yyerror	misc/hcl.tab.c	/^void yyerror(const char *str)$/;"	f
+yyfree	misc/lex.yy.c	/^void yyfree (void * ptr )$/;"	f
+yyfree	misc/yas-grammar.c	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	misc/lex.yy.c	/^int yyget_debug  (void)$/;"	f
+yyget_debug	misc/yas-grammar.c	/^int yyget_debug  (void)$/;"	f
+yyget_in	misc/lex.yy.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_in	misc/yas-grammar.c	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	misc/lex.yy.c	/^int yyget_leng  (void)$/;"	f
+yyget_leng	misc/yas-grammar.c	/^int yyget_leng  (void)$/;"	f
+yyget_lineno	misc/lex.yy.c	/^int yyget_lineno  (void)$/;"	f
+yyget_lineno	misc/yas-grammar.c	/^int yyget_lineno  (void)$/;"	f
+yyget_out	misc/lex.yy.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_out	misc/yas-grammar.c	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	misc/lex.yy.c	/^char *yyget_text  (void)$/;"	f
+yyget_text	misc/yas-grammar.c	/^char *yyget_text  (void)$/;"	f
+yyin	misc/lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyin	misc/yas-grammar.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	misc/lex.yy.c	/^    static int yyinput (void)$/;"	f	file:
+yyinput	misc/yas-grammar.c	/^    static int yyinput (void)$/;"	f	file:
+yyleng	misc/lex.yy.c	/^int yyleng;$/;"	v
+yyleng	misc/yas-grammar.c	/^int yyleng;$/;"	v
+yyless	misc/lex.yy.c	1753;"	d	file:
+yyless	misc/lex.yy.c	1754;"	d	file:
+yyless	misc/lex.yy.c	175;"	d	file:
+yyless	misc/yas-grammar.c	175;"	d	file:
+yyless	misc/yas-grammar.c	1899;"	d	file:
+yyless	misc/yas-grammar.c	1900;"	d	file:
+yylex_destroy	misc/lex.yy.c	/^int yylex_destroy  (void)$/;"	f
+yylex_destroy	misc/yas-grammar.c	/^int yylex_destroy  (void)$/;"	f
+yylineno	misc/lex.yy.c	/^int yylineno = 1;$/;"	v
+yylineno	misc/yas-grammar.c	/^int yylineno = 1;$/;"	v
+yylval	misc/hcl.tab.c	/^YYSTYPE yylval;$/;"	v
+yymore	misc/lex.yy.c	494;"	d	file:
+yymore	misc/yas-grammar.c	740;"	d	file:
+yynerrs	misc/hcl.tab.c	/^int yynerrs;$/;"	v
+yyout	misc/lex.yy.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyout	misc/yas-grammar.c	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypact	misc/hcl.tab.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	misc/hcl.tab.c	525;"	d	file:
+yyparse	misc/hcl.tab.c	/^yyparse (void)$/;"	f
+yypgoto	misc/hcl.tab.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	misc/lex.yy.c	/^void yypop_buffer_state (void)$/;"	f
+yypop_buffer_state	misc/yas-grammar.c	/^void yypop_buffer_state (void)$/;"	f
+yypush_buffer_state	misc/lex.yy.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yypush_buffer_state	misc/yas-grammar.c	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	misc/hcl.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	misc/hcl.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	misc/lex.yy.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrealloc	misc/yas-grammar.c	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	misc/lex.yy.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrestart	misc/yas-grammar.c	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrline	misc/hcl.tab.c	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyserror	misc/hcl.tab.c	/^void yyserror(const char *str, char *other)$/;"	f
+yyset_debug	misc/lex.yy.c	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_debug	misc/yas-grammar.c	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_in	misc/lex.yy.c	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_in	misc/yas-grammar.c	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_lineno	misc/lex.yy.c	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_lineno	misc/yas-grammar.c	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_out	misc/lex.yy.c	/^void yyset_out (FILE *  out_str )$/;"	f
+yyset_out	misc/yas-grammar.c	/^void yyset_out (FILE *  out_str )$/;"	f
+yyss_alloc	misc/hcl.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	misc/hcl.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	misc/hcl.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	misc/hcl.tab.c	825;"	d	file:
+yystrlen	misc/hcl.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	misc/hcl.tab.c	809;"	d	file:
+yysyntax_error	misc/hcl.tab.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	misc/hcl.tab.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yytable_value_is_error	misc/hcl.tab.c	530;"	d	file:
+yyterminate	misc/lex.yy.c	646;"	d	file:
+yyterminate	misc/yas-grammar.c	889;"	d	file:
+yytext	misc/lex.yy.c	/^char *yytext;$/;"	v
+yytext	misc/yas-grammar.c	/^char *yytext;$/;"	v
+yytext_ptr	misc/lex.yy.c	354;"	d	file:
+yytext_ptr	misc/yas-grammar.c	354;"	d	file:
+yytname	misc/hcl.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	misc/hcl.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	misc/hcl.tab.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	misc/hcl.tab.h	/^  enum yytokentype$/;"	g
+yytoknum	misc/hcl.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	misc/hcl.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	misc/hcl.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	misc/hcl.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	misc/hcl.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	misc/hcl.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	misc/hcl.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	misc/hcl.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	misc/hcl.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	misc/hcl.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	misc/lex.yy.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyunput	misc/yas-grammar.c	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs_alloc	misc/hcl.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+yywrap	misc/hcl.tab.c	/^int yywrap()$/;"	f
+yywrap	misc/yas.c	/^int yywrap()$/;"	f

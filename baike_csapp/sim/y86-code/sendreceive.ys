@@ -1,0 +1,95 @@
+    .pos 0
+Init: # use %edx as flag
+    irmovl $1, %edx
+    irmovl $0x1f00, %eax
+    rmchange %edx, (%eax)
+    irmovl $0x7f0, %esp
+    irmovl $0, %eax
+    andl %edx, %edx
+    je Sender
+    jmp Receiver
+Put: # put %eax into buffer, uses %edi as counter
+    mrmovl 0x1000, %edi
+    iaddl $4, %edi
+    rmmovl %eax, 0x1000(%edi)
+    rmmovl %edi, 0x1000(%ebp)
+    ret 
+Read: # read from buffer to %eax, uses %edi as counter
+    mrmovl 0x1000(%ebp), %edi
+    andl %edi, %edi
+    je Ret
+    mrmovl 0x1000(%edi), %eax
+    rmmovl %eax , 0x800(%edi)
+    iaddl $-4, %edi
+    rmmovl %edi, 0x1000(%ebp)
+    ret
+
+Sender: # uses %edx as counter, %ecx as tmp counter, %esi as tmp storage
+    irmovl $0, %edx
+    irmovl $1, %ebx
+SenderBegin:
+    mrmovl 0x1f00(%ebp), %esi
+    andl %esi, %esi
+    jne SenderBegin
+    rrmovl %edx, %ecx
+SenderReading:
+    andl %ecx, %ecx
+    je SenderInter
+    call Read
+    iaddl $-1, %ecx
+    jmp SenderReading
+SenderInter:
+    iaddl $1, %edx
+    rrmovl %edx, %ecx
+    addl %ecx, %eax
+SenderPutting:
+    andl %ecx, %ecx
+    je SenderEnd
+    call Put
+    iaddl $-1, %eax
+    iaddl $-1, %ecx
+    jmp SenderPutting
+SenderEnd:
+    rmmovl %ebx, 0x1f00(%ebp)
+    iaddl $1, %edx
+    iaddl $-20, %edx
+    jge Halt
+    iaddl $20, %edx
+    jmp SenderBegin
+Receiver: # uses %edx as counter, %esi as tmp storage
+    irmovl $1, %edx
+    irmovl $0, %ebx
+    rmmovl %ebx, 0x1f00(%ebp)
+ReceiverBegin:
+    mrmovl 0x1f00(%ebp), %esi
+    andl %esi, %esi
+    je ReceiverBegin
+    rrmovl %edx, %ecx
+ReceiverReading:
+    andl %ecx, %ecx
+    je ReceiverInter
+    call Read
+    iaddl $-1, %ecx
+    jmp ReceiverReading
+ReceiverInter:
+    iaddl $1, %edx
+    rrmovl %edx, %ecx
+    addl %ecx, %eax
+ReceiverPutting:
+    andl %ecx, %ecx
+    je ReceiverEnd
+    call Put
+    iaddl $-1, %eax
+    iaddl $-1, %ecx
+    jmp ReceiverPutting
+ReceiverEnd:
+    rmmovl %ebx, 0x1f00(%ebp)
+    iaddl $-20, %edx
+    jge Halt
+    iaddl $20, %edx
+    iaddl $1, %edx
+    jmp ReceiverBegin
+Halt:
+    halt
+Ret:
+    ret

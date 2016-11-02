@@ -1,0 +1,45 @@
+Memory size: 00001000
+SWAP SIZE : 00000c00
+Waiting for 2 client(s)...
+Clients ready...
+find broadcast at pos : 1f00
+find broadcast at pos : 1f00
+find broadcast at pos : 1f01
+find broadcast at pos : 1f02
+find broadcast at pos : 1f03
+find broadcast at pos : 1f00
+find broadcast at pos : 1f00
+find broadcast at pos : 1f01
+find broadcast at pos : 1f02
+find broadcast at pos : 1f03
+find broadcast at pos : 1f00
+find broadcast at pos : 1f01
+find broadcast at pos : 1f02
+find broadcast at pos : 1f03
+find broadcast at pos : 1f00
+find broadcast at pos : 1000
+find broadcast at pos : 1004
+find broadcast at pos : 1005
+find broadcast at pos : 1006
+find broadcast at pos : 1007
+find broadcast at pos : 1000
+find broadcast at pos : 1001
+find broadcast at pos : 1002
+find broadcast at pos : 1003
+find broadcast at pos : 1f00
+find broadcast at pos : 1f01
+find broadcast at pos : 1f02
+find broadcast at pos : 1f03
+find broadcast at pos : 1f00
+find broadcast at pos : 1000
+find broadcast at pos : 1400
+find broadcast at pos : 1000
+find broadcast at pos : 1001
+find broadcast at pos : 1002
+find broadcast at pos : 1003
+Clients have already exited...
+0x0000: 0x000000fc
+0x0001: 0x00000003
+0x0004: 0x00000001
+0x0c08: 0x00000001
+0x0f00: 0x00000001

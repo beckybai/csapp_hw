@@ -1,0 +1,95 @@
+  0x000:              |     .pos 0
+  0x000:              | Init: # use %edx as flag
+  0x000: 30f201000000 |     irmovl $1, %edx
+  0x006: 30f0001f0000 |     irmovl $0x1f00, %eax
+  0x00c: f02000000000 |     rmchange %edx, (%eax)
+  0x012: 30f4f0070000 |     irmovl $0x7f0, %esp
+  0x018: 30f000000000 |     irmovl $0, %eax
+  0x01e: 6222         |     andl %edx, %edx
+  0x020: 7369000000   |     je Sender
+  0x025: 70e4000000   |     jmp Receiver
+  0x02a:              | Put: # put %eax into buffer, uses %edi as counter
+  0x02a: 507f00100000 |     mrmovl 0x1000, %edi
+  0x030: c0f704000000 |     iaddl $4, %edi
+  0x036: 400700100000 |     rmmovl %eax, 0x1000(%edi)
+  0x03c: 407500100000 |     rmmovl %edi, 0x1000(%ebp)
+  0x042: 90           |     ret 
+  0x043:              | Read: # read from buffer to %eax, uses %edi as counter
+  0x043: 507500100000 |     mrmovl 0x1000(%ebp), %edi
+  0x049: 6277         |     andl %edi, %edi
+  0x04b: 7366010000   |     je Ret
+  0x050: 500700100000 |     mrmovl 0x1000(%edi), %eax
+  0x056: 400700080000 |     rmmovl %eax , 0x800(%edi)
+  0x05c: c0f7fcffffff |     iaddl $-4, %edi
+  0x062: 407500100000 |     rmmovl %edi, 0x1000(%ebp)
+  0x068: 90           |     ret
+                      | 
+  0x069:              | Sender: # uses %edx as counter, %ecx as tmp counter, %esi as tmp storage
+  0x069: 30f200000000 |     irmovl $0, %edx
+  0x06f: 30f301000000 |     irmovl $1, %ebx
+  0x075:              | SenderBegin:
+  0x075: 5065001f0000 |     mrmovl 0x1f00(%ebp), %esi
+  0x07b: 6266         |     andl %esi, %esi
+  0x07d: 7475000000   |     jne SenderBegin
+  0x082: 2021         |     rrmovl %edx, %ecx
+  0x084:              | SenderReading:
+  0x084: 6211         |     andl %ecx, %ecx
+  0x086: 739b000000   |     je SenderInter
+  0x08b: 8043000000   |     call Read
+  0x090: c0f1ffffffff |     iaddl $-1, %ecx
+  0x096: 7084000000   |     jmp SenderReading
+  0x09b:              | SenderInter:
+  0x09b: c0f201000000 |     iaddl $1, %edx
+  0x0a1: 2021         |     rrmovl %edx, %ecx
+  0x0a3: 6010         |     addl %ecx, %eax
+  0x0a5:              | SenderPutting:
+  0x0a5: 6211         |     andl %ecx, %ecx
+  0x0a7: 73c2000000   |     je SenderEnd
+  0x0ac: 802a000000   |     call Put
+  0x0b1: c0f0ffffffff |     iaddl $-1, %eax
+  0x0b7: c0f1ffffffff |     iaddl $-1, %ecx
+  0x0bd: 70a5000000   |     jmp SenderPutting
+  0x0c2:              | SenderEnd:
+  0x0c2: 4035001f0000 |     rmmovl %ebx, 0x1f00(%ebp)
+  0x0c8: c0f201000000 |     iaddl $1, %edx
+  0x0ce: c0f2ecffffff |     iaddl $-20, %edx
+  0x0d4: 7565010000   |     jge Halt
+  0x0d9: c0f214000000 |     iaddl $20, %edx
+  0x0df: 7075000000   |     jmp SenderBegin
+  0x0e4:              | Receiver: # uses %edx as counter, %esi as tmp storage
+  0x0e4: 30f201000000 |     irmovl $1, %edx
+  0x0ea: 30f300000000 |     irmovl $0, %ebx
+  0x0f0: 4035001f0000 |     rmmovl %ebx, 0x1f00(%ebp)
+  0x0f6:              | ReceiverBegin:
+  0x0f6: 5065001f0000 |     mrmovl 0x1f00(%ebp), %esi
+  0x0fc: 6266         |     andl %esi, %esi
+  0x0fe: 73f6000000   |     je ReceiverBegin
+  0x103: 2021         |     rrmovl %edx, %ecx
+  0x105:              | ReceiverReading:
+  0x105: 6211         |     andl %ecx, %ecx
+  0x107: 731c010000   |     je ReceiverInter
+  0x10c: 8043000000   |     call Read
+  0x111: c0f1ffffffff |     iaddl $-1, %ecx
+  0x117: 7005010000   |     jmp ReceiverReading
+  0x11c:              | ReceiverInter:
+  0x11c: c0f201000000 |     iaddl $1, %edx
+  0x122: 2021         |     rrmovl %edx, %ecx
+  0x124: 6010         |     addl %ecx, %eax
+  0x126:              | ReceiverPutting:
+  0x126: 6211         |     andl %ecx, %ecx
+  0x128: 7343010000   |     je ReceiverEnd
+  0x12d: 802a000000   |     call Put
+  0x132: c0f0ffffffff |     iaddl $-1, %eax
+  0x138: c0f1ffffffff |     iaddl $-1, %ecx
+  0x13e: 7026010000   |     jmp ReceiverPutting
+  0x143:              | ReceiverEnd:
+  0x143: 4035001f0000 |     rmmovl %ebx, 0x1f00(%ebp)
+  0x149: c0f2ecffffff |     iaddl $-20, %edx
+  0x14f: 7565010000   |     jge Halt
+  0x154: c0f214000000 |     iaddl $20, %edx
+  0x15a: c0f201000000 |     iaddl $1, %edx
+  0x160: 70f6000000   |     jmp ReceiverBegin
+  0x165:              | Halt:
+  0x165: 00           |     halt
+  0x166:              | Ret:
+  0x166: 90           |     ret

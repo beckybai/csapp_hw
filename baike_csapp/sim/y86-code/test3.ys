@@ -1,0 +1,9 @@
+# prog1: Pad with 3 nop's
+
+  .pos 0
+  irmovl $10, %edx
+  irmovl $20, %ebx
+  irmovl $0x1000, %eax
+#  rmmovl %ebx, (%eax)
+  rmchange %edx, (%eax)
+  halt
